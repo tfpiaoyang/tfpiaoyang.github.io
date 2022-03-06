@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tfpiaoyang.github.io/"/>
-  <updated>2021-12-05T14:17:11.000Z</updated>
+  <updated>2022-03-06T14:46:51.663Z</updated>
   <id>https://tfpiaoyang.github.io/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>半导体行业新闻简报 Semiconductor Industry News Briefing-37(202203)</title>
+    <link href="https://tfpiaoyang.github.io/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E4%BF%A1%E6%81%AF/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E6%96%B0%E9%97%BB%E7%AE%80%E6%8A%A5-Semiconductor-Industry-News-Briefing-37-202103.html"/>
+    <id>https://tfpiaoyang.github.io/半导体行业信息/半导体行业新闻简报-Semiconductor-Industry-News-Briefing-37-202103.html</id>
+    <published>2022-03-06T14:12:08.000Z</published>
+    <updated>2022-03-06T14:46:51.663Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Market-Trends"><a href="#Market-Trends" class="headerlink" title="Market Trends"></a>Market Trends</h1><h4 id="Overall-DRAM-Output-Decreased-Nearly-6-QoQ-in-4Q21-Due-to-Decline-in-Shipments-and-Pricing-TrendForce-2022-02-17"><a href="#Overall-DRAM-Output-Decreased-Nearly-6-QoQ-in-4Q21-Due-to-Decline-in-Shipments-and-Pricing-TrendForce-2022-02-17" class="headerlink" title="Overall DRAM Output Decreased Nearly 6% QoQ in 4Q21 Due to Decline in Shipments and Pricing (TrendForce 2022-02-17)"></a><a href="https://www.trendforce.com/presscenter/news/20220217-11128.html" target="_blank" rel="noopener">Overall DRAM Output Decreased Nearly 6% QoQ in 4Q21 Due to Decline in Shipments and Pricing</a> (TrendForce 2022-02-17)</h4><p>The pandemic has impeded the supply of many end-user devices such as smartphones, servers, PCs, and niche consumer electronics components, indirectly leading to a decline in a willingness on the procurement-end to stock relatively abundant memory chips, according to TrendForce research. This is most obvious in the stance of PC OEMs holding more than 10 weeks or more of DRAM inventory. Therefore, most DRAM fabs experienced a drop in shipments in the fourth quarter of 2021 and declining purchasing momentum has also led to a downward trend in DRAM price quotations. Total 4Q21 DRAM output value decreased by 5.8% QoQ, reaching US$25.03 billion, with only a few suppliers such as SK hynix bucking this trend.<br>Looking forward to 1Q22, although material shortages for some components can be alleviated, the first quarter is already an off season for demand and buyers’ inventories are still flush. Thus, the purchasing-side will largely concentrate on destocking, with overall purchasing momentum remaining sluggish. Thus, DRAM pricing in the first quarter of this year is expected to face greater pressure than in the fourth quarter of last year and overall DRAM output value may fall further.<br><img src="半导体行业新闻简报-Semiconductor-Industry-News-Briefing-37-202203/1-2.png" alt=""></p><h4 id="出货量衰退伴随报价下滑，2021年第四季整体DRAM产值季减近6-集邦咨询-2022-02-17"><a href="#出货量衰退伴随报价下滑，2021年第四季整体DRAM产值季减近6-集邦咨询-2022-02-17" class="headerlink" title="出货量衰退伴随报价下滑，2021年第四季整体DRAM产值季减近6%(集邦咨询 2022-02-17)"></a><a href="https://www.trendforce.cn/presscenter/news/20220217-11127.html" target="_blank" rel="noopener">出货量衰退伴随报价下滑，2021年第四季整体DRAM产值季减近6%</a>(集邦咨询 2022-02-17)</h4><p>疫情致使众多终端装置如智能手机、服务器、PC至利基型消费性电子产品零组件供应受阻，间接导致采购端对于相对长料的存储器拉货意愿下滑，其中尤以DRAM库存超过10周以上的PC OEMs业者态度最为明显。因此，多数DRAM原厂在2021年第四季出货量皆呈现衰退，拉货动能下降也导致DRAM报价反转向下。<strong>2021年第四季DRAM总产值季减5.8%</strong>，来到250.3亿美元，仅少数供应商如SK海力士（SK hynix）营收逆势上扬。<br>展望2022年第一季，部分零组件缺料可见纾缓，但第一季本就为需求淡季，买方库存仍偏高，使多数采购端将优以去化库存为主，整体拉货动能低迷。因此，今年第一季DRAM价格会较去年第四季面临更大压力，整体DRAM总产值可能进一步下跌。<br>…………<br><img src="半导体行业新闻简报-Semiconductor-Industry-News-Briefing-37-202203/1-1.png" alt=""></p><h4 id="Ukrainian-Russian-Conflict-Affects-Semiconductor-Gas-Supply-and-May-Cause-Rise-in-Chip-Production-Costs-TrendForce-2022-02-15"><a href="#Ukrainian-Russian-Conflict-Affects-Semiconductor-Gas-Supply-and-May-Cause-Rise-in-Chip-Production-Costs-TrendForce-2022-02-15" class="headerlink" title="Ukrainian-Russian Conflict Affects Semiconductor Gas Supply and May Cause Rise in Chip Production Costs(TrendForce 2022-02-15)"></a><a href="https://www.trendforce.com/presscenter/news/20220215-11119.html" target="_blank" rel="noopener">Ukrainian-Russian Conflict Affects Semiconductor Gas Supply and May Cause Rise in Chip Production Costs</a>(TrendForce 2022-02-15)</h4><p>Ukraine is a major supplier of raw material gases for semiconductors including neon, argon, krypton, and xenon, according to TrendForce’s investigations. Ukraine supplies nearly 70% of the world’s neon gas capacity. Although the proportion of neon gas used in semiconductor processes is not as high as in other industries, it is still a necessary resource. If the supply of materials is cut off, there will be an impact on the industry. TrendForce believes that, although the Ukrainian-Russian conflict may affect the supply of inert gas regionally, semiconductor factories and gas suppliers are stocked and there are still supplies from other regions. Thus, gas production line interruptions in Ukraine will not halt semiconductor production lines in the short term. However, the reduction in gas supply will likely lead to higher prices which may increase the cost of wafer production.<br>……<br>TrendForce research shows, in terms of foundries, global production capacity at the 180~1Xnm nodes accounts for approximately 75% of total capacity. Except for TSMC and Samsung, who provide advanced EUV processes, for most fabs, the proportion of revenue attributed to the 180~1Xnm nodes exceeds 90%. In addition, the manufacturing processes of components in extreme short supply since 2020, including PMIC, Wi-Fi, RFIC, and MCU all fall within the 180~1Xnm node range. In terms of DRAM, in addition to Micron, Korean manufacturers are gradually increasing the proportion of 1alpha nm nodes (using the EUV process) but more than 90% of production capacity still employs the DUV process.  In addition, all NAND Flash capacity utilizes DUV lithography technology.</p><h4 id="俄乌冲突影响半导体气体供应，芯片生产成本恐上涨-集邦咨询-2022-02-15"><a href="#俄乌冲突影响半导体气体供应，芯片生产成本恐上涨-集邦咨询-2022-02-15" class="headerlink" title="俄乌冲突影响半导体气体供应，芯片生产成本恐上涨(集邦咨询 2022-02-15)"></a><a href="https://www.trendforce.cn/presscenter/news/20220215-11118.html" target="_blank" rel="noopener">俄乌冲突影响半导体气体供应，芯片生产成本恐上涨</a>(集邦咨询 2022-02-15)</h4><p>乌克兰为半导体原料气体供应大国，包含氖、氩、氪、氙等，其中氖气由乌克兰供应全球近七成产量，尽管氖气在半导体制程当中使用比重并不如其他产业，但其仍为必要原物料，若供应受阻仍将对产业造成影响。TrendForce集邦咨询认为，俄乌冲突虽可能冲击该地区惰性气体供应，但在半导体厂、气体供应厂皆备有库存，且仍有其它地区供应的情况下，短期内不至于造成产线中断影响产出，不过气体供应量减少仍将可能造成价格上涨，芯片生产成本可能因此上涨。<br>……<br>TrendForce集邦咨询研究显示，晶圆代工方面，全球180~1Xnm产能占整体约75%，除有提供EUV先进制程的台积电（TSMC）及三星（Samsung）外，多数晶圆厂180~1Xnm营收占比超过九成，且自2020年起供货极为紧张的零组件包含PMIC、Wi-Fi、RFIC、MCU等制造制程皆落在此区间。DRAM方面，除了美光（Micron）外，韩厂正逐步加大1alpha nm（使用EUV制程）占比，但目前仍有超过九成的产能采用DUV制程；而NAND Flash则全数采用DUV微影技术。</p><h4 id="8-inch-Wafer-Capacity-Remains-Tight-Shortages-Expected-to-Ease-in-2H23-TrendForce-2022-02-08"><a href="#8-inch-Wafer-Capacity-Remains-Tight-Shortages-Expected-to-Ease-in-2H23-TrendForce-2022-02-08" class="headerlink" title="8-inch Wafer Capacity Remains Tight, Shortages Expected to Ease in 2H23(TrendForce 2022-02-08)"></a><a href="https://www.trendforce.com/presscenter/news/20220208-11111.html" target="_blank" rel="noopener">8-inch Wafer Capacity Remains Tight, Shortages Expected to Ease in 2H23</a>(TrendForce 2022-02-08)</h4><p>From 2020 to 2025, the compound annual growth rate (CAGR) of 12-inch equivalent wafer capacity at the world’s top ten foundries will be approximately 10% with the majority of these companies focusing on 12-inch capacity expansion, which will see a CAGR of approximately 13.2%, according to TrendForce’s research. <strong>In terms of 8-inch wafers, due to factors such as difficult to obtain equipment and whether capacity expansion is cost-effective, most fabs can only expand production slightly by means of capacity optimization, equating to a CAGR of only 3.3%. </strong>In terms of demand, the products primarily derived from 8-inch wafers, PMIC and Power Discrete, are driven by demand for electric vehicles, 5G smartphones, and servers. Stocking momentum has not fallen off, resulting in a serious shortage of 8-inch wafer production capacity that has festered since 2H19. Therefore, in order to mitigate competition for 8-inch capacity, a trend of shifting certain products to 12-inch production has gradually emerged. However, if shortages in overall 8-inch capacity is to be effectively alleviated, it is still necessary to wait for a large number of mainstream products to migrate to 12-inch production. The timeframe for this migration is estimated to be close to 2H23 into 2024.</p><h4 id="8英寸产能续紧，缺货态势2023下半年有望缓解-集邦咨询-2022-02-08"><a href="#8英寸产能续紧，缺货态势2023下半年有望缓解-集邦咨询-2022-02-08" class="headerlink" title="8英寸产能续紧，缺货态势2023下半年有望缓解(集邦咨询 2022-02-08)"></a><a href="https://www.trendforce.cn/presscenter/news/20220208-11110.html" target="_blank" rel="noopener">8英寸产能续紧，缺货态势2023下半年有望缓解</a>(集邦咨询 2022-02-08)</h4><p>2020~2025年全球前十大晶圆代工厂的12英寸约当产能年复合增长率约10%，其中多数晶圆厂主要聚焦12英寸产能扩充，CAGR约13.2%；<strong>8英寸方面因设备取得困难、扩产不符成本效益等因素，晶圆厂多半仅以产能优化等方式小幅扩产，CAGR仅3.3%。</strong>需求方面，8英寸主要产品PMIC、Power discrete受到电动车、5G智能手机、服务器等需求带动，备货动能不坠，导致8英寸晶圆产能自2019下半年起呈现严重供不应求。因此，为解决8英寸产能争夺问题，部分产品转进12英寸生产的趋势逐渐浮现，不过整体8英寸产能若要有效缓解，仍须待主流产品大量转进至12英寸厂制造，预估该时间约在2023下半年至2024年。<br>……</p><h1 id="Vendor-News"><a href="#Vendor-News" class="headerlink" title="Vendor News"></a>Vendor News</h1><h4 id="Samsung-Develops-Industry’s-First-LPDDR5X-DRAM-Samsung-2021-11-09"><a href="#Samsung-Develops-Industry’s-First-LPDDR5X-DRAM-Samsung-2021-11-09" class="headerlink" title="Samsung Develops Industry’s First LPDDR5X DRAM(Samsung 2021-11-09)"></a><a href="https://news.samsung.com/global/samsung-develops-industrys-first-lpddr5x-dram" target="_blank" rel="noopener">Samsung Develops Industry’s First LPDDR5X DRAM</a>(Samsung 2021-11-09)</h4><p>Samsung Electronics announced that it has developed the industry’s first 14-nanometer (nm) based 16-gigabit (Gb) Low Power Double Data Rate 5X (LPDDR5X) DRAM, designed to drive further growth throughout the high-speed data service applications including 5G, artificial intelligence (AI) and the metaverse.<br>Samsung’s LPDDR5X is a next-generation mobile DRAM designed to significantly boost speed, capacity and power savings for future 5G applications. In 2018, Samsung delivered the industry’s first 8Gb LPDDR5 DRAM and today, the company is aggressively moving beyond mobile markets with the first 16Gb LPDDR5X DRAM.<br>The LPDDR5X DRAM will offer data processing speeds of up to 8.5 gigabits per second (Gbps), which are over 1.3 times faster than LPDDR5’s 6.4Gbps. Leveraging the industry’s most advanced 14nm DRAM process technology, it will also use around 20% less power than LPDDR5 memory. In addition, the 16Gb LPDDR5X chip will enable up to 64 gigabytes (GB) per memory package, accommodating increasing demand for higher-capacity mobile DRAM worldwide.<br>…………</p><h1 id="New-Technology"><a href="#New-Technology" class="headerlink" title="New Technology"></a>New Technology</h1><h4 id="Alibaba’s-DAMO-Academy-Successfully-Develops-World’s-First-3D-Stacked-In-Memory-Computing-Chip-Based-on-DRAM-Pandaily-2021-12-3"><a href="#Alibaba’s-DAMO-Academy-Successfully-Develops-World’s-First-3D-Stacked-In-Memory-Computing-Chip-Based-on-DRAM-Pandaily-2021-12-3" class="headerlink" title="Alibaba’s DAMO Academy Successfully Develops World’s First 3D Stacked In-Memory Computing Chip Based on DRAM(Pandaily 2021-12-3)"></a><a href="https://pandaily.com/alibabas-damo-academy-successfully-develops-worlds-first-3d-stacked-in-memory-computing-chip-based-on-dram/" target="_blank" rel="noopener">Alibaba’s DAMO Academy Successfully Develops World’s First 3D Stacked In-Memory Computing Chip Based on DRAM</a>(Pandaily 2021-12-3)</h4><p>On Friday, Alibaba Cloud announced in a social media post that its DAMO Academy has successfully developed a 3D stacked In-Memory Computing (IMC) chip.<br>Alibaba Cloud claims this is a breakthrough that can help overcome the von Neumann bottleneck, a limitation on throughput caused by the standard personal computer architecture. It meets the needs of artificial intelligence (AI) and other scenarios for high bandwidth, high capacity memory and extreme computing power. In the specific AI scenario tested by Alibaba, the performance of the chip is improv</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Market-Trends&quot;&gt;&lt;a href=&quot;#Market-Trends&quot; class=&quot;headerlink&quot; title=&quot;Market Trends&quot;&gt;&lt;/a&gt;Market Trends&lt;/h1&gt;&lt;h4 id=&quot;Overall-DRAM-Output-D
+      
+    
+    </summary>
+    
+      <category term="半导体行业信息" scheme="https://tfpiaoyang.github.io/categories/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E4%BF%A1%E6%81%AF/"/>
+    
+    
+      <category term="半导体" scheme="https://tfpiaoyang.github.io/tags/%E5%8D%8A%E5%AF%BC%E4%BD%93/"/>
+    
+      <category term="Semiconductor" scheme="https://tfpiaoyang.github.io/tags/Semiconductor/"/>
+    
+      <category term="DRAM" scheme="https://tfpiaoyang.github.io/tags/DRAM/"/>
+    
+      <category term="Intel" scheme="https://tfpiaoyang.github.io/tags/Intel/"/>
+    
+      <category term="AMD" scheme="https://tfpiaoyang.github.io/tags/AMD/"/>
+    
+      <category term="内存" scheme="https://tfpiaoyang.github.io/tags/%E5%86%85%E5%AD%98/"/>
+    
+      <category term="Micron" scheme="https://tfpiaoyang.github.io/tags/Micron/"/>
+    
+      <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
+    
+      <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
+    
+      <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
+    
+      <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
+    
+      <category term="UniIC" scheme="https://tfpiaoyang.github.io/tags/UniIC/"/>
+    
+      <category term="UniGroup" scheme="https://tfpiaoyang.github.io/tags/UniGroup/"/>
+    
+  </entry>
   
   <entry>
     <title>半导体行业新闻简报 Semiconductor Industry News Briefing-36(202112)</title>
@@ -53,11 +104,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -104,11 +155,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -155,11 +206,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -206,11 +257,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -257,11 +308,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -308,11 +359,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -359,11 +410,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -410,11 +461,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -461,11 +512,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -512,11 +563,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -563,11 +614,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -614,11 +665,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -665,11 +716,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -716,11 +767,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -767,11 +818,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -818,11 +869,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -869,11 +920,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -920,11 +971,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
+    
+      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
@@ -971,62 +1022,11 @@
     
       <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
     
-      <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
       <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
     
       <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
     
-      <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
-    
-      <category term="UniIC" scheme="https://tfpiaoyang.github.io/tags/UniIC/"/>
-    
-      <category term="UniGroup" scheme="https://tfpiaoyang.github.io/tags/UniGroup/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>半导体行业新闻简报 SemiconductorIndustry News Briefing(17)-201912</title>
-    <link href="https://tfpiaoyang.github.io/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E4%BF%A1%E6%81%AF/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E6%96%B0%E9%97%BB%E7%AE%80%E6%8A%A5-Semiconductor-Industry-News-Briefing-17-201912.html"/>
-    <id>https://tfpiaoyang.github.io/半导体行业信息/半导体行业新闻简报-Semiconductor-Industry-News-Briefing-17-201912.html</id>
-    <published>2020-01-06T12:40:43.000Z</published>
-    <updated>2020-01-07T10:59:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Breaking-News"><a href="#Breaking-News" class="headerlink" title="Breaking News"></a>Breaking News</h1><h4 id="1-Samsung-Electronics-chip-output-at-South-Korea-plant-partly-halted-due-to-short-blackout-Reuters-2020-01-01"><a href="#1-Samsung-Electronics-chip-output-at-South-Korea-plant-partly-halted-due-to-short-blackout-Reuters-2020-01-01" class="headerlink" title="1. Samsung Electronics chip output at South Korea plant partly halted due to short blackout (Reuters 2020-01-01)"></a>1. <a href="https://www.reuters.com/article/us-samsung-elec-plant-idUSKBN1Z01K3" target="_blank" rel="noopener">Samsung Electronics chip output at South Korea plant partly halted due to short blackout </a>(Reuters 2020-01-01)</h4><p><strong>Samsung Electronics (005930.KS) partly halted some semiconductor production at its</strong> <strong>Hwaseong</strong> <strong>chip complex in South Korea after about a minute-long blackout on Tuesday afternoon, the company said on Wednesday.</strong><br><strong>Some DRAM and NAND flash chip production lines were stopped after electricity was cut due to a problem with a regional power transmission cable, and a full recovery is expected in about two to three days,</strong> Yonhap reported earlier on Tuesday, citing industry sources.<br>…………<br><strong>The incident likely caused millions of dollars in losses, a source with direct knowledge of the matter said, but added that there was no major damage.</strong> The source declined to be identified as the exact extent of the damage was not yet public.<br>…………<br>The incident could help curb the increase of Samsung Electronics’ large chip inventory, Yonhap said, citing an analyst.</p><h4 id="2-南韓三星華城廠區驚傳跳電，將影響-DRAM、NAND-Flash-及LSI部分業務-财经新报-2020-01-01"><a href="#2-南韓三星華城廠區驚傳跳電，將影響-DRAM、NAND-Flash-及LSI部分業務-财经新报-2020-01-01" class="headerlink" title="2. 南韓三星華城廠區驚傳跳電，將影響 DRAM、NAND Flash 及LSI部分業務 (财经新报 2020-01-01)"></a>2. <a href="https://finance.technews.tw/2020/01/01/samsung-hwasung-shut-down/" target="_blank" rel="noopener">南韓三星華城廠區驚傳跳電，將影響 DRAM、NAND Flash 及LSI部分業務 </a>(财经新报 2020-01-01)</h4><p>就在大家歡喜慶祝 2020 年元旦之際，南韓的半導體產業卻傳來了意外事件！根據外電的報導，<strong>南韓半導體廠商三星電子旗下位於華城的工廠發生了跳電事故，影響了DRAM、NAND Flash，以及採用EUV技術的系統半導體生產部分。</strong><br>根據 外電報導指出，三星電子位於南韓華城的工廠，在 2019 年 12 月 31 日發生了短暫的跳電情況，<strong>使得華城廠區內的部分工廠短暫停產。整個跳電的時間約1分鐘，之後立即恢復了供電</strong>，目前三星正在積極的進行產線檢查，在了解受損程度之後，以便在最短時間內恢復生產。<br>據了解，這次三星電子華城廠區的跳電事件，<strong>影響的是生產DRAM的Line 12產線，以及生產Nand Flash的Line 13產線，另外還有以EUV（extreme ultraviolet）技術進行生產的LSI（large-scale integration）部分</strong>。根據市場人士估計，<strong>由於是生產DRAM的Line 12產線，以及生產NAND Flash的Line 13產線都屬於製程比較落後的產線，因此受影響較大的部分的將會是在以EUV來生產系統半導體的領域，整體損失金額可能達到3,000萬美元。</strong><br>…………<br><strong>這次南韓三星華城廠區在無發生重大天然災害情況下，卻發生跳電的情況，這個過程就必須好好地確認</strong></p><h1 id="Market-Trends"><a href="#Market-Trends" class="headerlink" title="Market Trends"></a>Market Trends</h1><h4 id="1-As-Spot-Prices-See-Sharp-Upturn-1Q20-DRAM-Contract-Prices-Stop-Falling-Says-TrendForce（TrendForce-2019-12-16"><a href="#1-As-Spot-Prices-See-Sharp-Upturn-1Q20-DRAM-Contract-Prices-Stop-Falling-Says-TrendForce（TrendForce-2019-12-16" class="headerlink" title="1. As Spot Prices See Sharp Upturn, 1Q20 DRAM Contract Prices Stop Falling, Says TrendForce（TrendForce 2019-12-16)"></a>1. <a href="https://press.trendforce.com/press/20191216-3317.html" target="_blank" rel="noopener">As Spot Prices See Sharp Upturn, 1Q20 DRAM Contract Prices Stop Falling, Says TrendForce</a>（TrendForce 2019-12-16)</h4><p>According to the latest analysis of TrendForce’s DRAMeXchange research division, <strong>DRAM spot prices have begun to rebound</strong>, in turn improving the overall DRAM market sentiment, and memory component buyers in the contract market will be induced to raise their inventories as well. <strong>Contract prices are expected to rally as early as 1Q20</strong>.<br>…………<br>TrendForce’s latest updates to its 1Q20 price forecast are as follows<strong>: contract prices of PC DRAM, specialty DRAM, and mobile DRAM products will experience minor QoQ drops</strong>, <strong>while contract prices of server DRAM products will register a QoQ increase.</strong> With the anticipated cyclical upturn in prices first occurring in the server DRAM segment, <strong>the overall DRAM ASP may also hold steady at about the same level as in 4Q19.</strong><br>…………<br><strong>Looking ahead to 1Q20, because of existing instabilities in the supply of products built on 1Xnm processes, as well as fairly robust short-term demands, server DRAM ASP is expected to rally, with a 5% increase QoQ .</strong><br>…………<br>Furthermore, GPU makers are shifting their demand to next-generation GDDR6 products<strong>. With the demand side anticipating rising quotes in the future, contract prices of Graphics DRAM products are projected to post a mino QoQ increase.</strong></p><h4 id="集邦咨询：现货价格急涨，带动DRAM合约价提前于2020年第一季止跌（TrendForce-2019-12-16"><a href="#集邦咨询：现货价格急涨，带动DRAM合约价提前于2020年第一季止跌（TrendForce-2019-12-16" class="headerlink" title="集邦咨询：现货价格急涨，带动DRAM合约价提前于2020年第一季止跌（TrendForce 2019-12-16)"></a><a href="https://press.trendforce.cn/press/20191216-3027.html" target="_blank" rel="noopener">集邦咨询：现货价格急涨，带动DRAM合约价提前于2020年第一季止跌</a>（TrendForce 2019-12-16)</h4><p>根据集邦咨询半导体研究中心(DRAMeXchange)最新调查，DRAM现货价的翻扬，改变了市场氛围。在预期性心理因素下，有利于合约市场中买方的备货意愿提高，<strong>目前预估合约价可能提前至2020第一季止跌。</strong><br>…………<br>然而，受到目前现货报价大涨的激励，以及服务器内存1X纳米制程的生产状况普遍不顺畅，影响了整体供货量，因此<strong>集邦咨询对2020年价格预测进行修正，2020年第一季时</strong>，虽然标准型内存、利基型内存与行动式内存价格预估仍较前一季小幅下跌，但<strong>服务器内存有机会率先领涨，带动整体DRAM平均销售单价较前一季持平。</strong><br>根据集邦咨询观察，<strong>目前主流服务器内存模组成交量已经明显大幅增加</strong>，均价欲跌不易，服务器业者在DRAM备货的态度转趋积极。展望2020年第一季，由于1X纳米产品供货不顺影响持续，加上短期需求面展望强劲，<strong>预估服务器内存单价将正式反弹，季增幅约5%</strong>。<br>除了服务器内存以外，集邦咨询也同时调整图形处理内存的价格预测；<strong>图形处理内存尤其是GDDR5</strong>，因为主要GPU芯片供应商库存已经调整完毕，目前已恢复采购力道，加上最新一代的GDDR6需求也持续增加，<strong>在买方预期涨价心理影响下，整体价格也将于第一季小幅上调。</strong></p><h4 id="2-As-Supply-Adjustments-Struggle-to-Keep-Up-with-Demand-Growth-1Q20-Graphics-DRAM-Price-Sees-Sharp-Upturn-TrendForce-2019-12-26"><a href="#2-As-Supply-Adjustments-Struggle-to-Keep-Up-with-Demand-Growth-1Q20-Graphics-DRAM-Price-Sees-Sharp-Upturn-TrendForce-2019-12-26" class="headerlink" title="2. As Supply Adjustments Struggle to Keep Up with Demand Growth, 1Q20 Graphics DRAM Price Sees Sharp Upturn (TrendForce 2019-12-26)"></a>2. <a href="https://press.trendforce.com/press/20191226-3320.html" target="_blank" rel="noopener">As Supply Adjustments Struggle to Keep Up with Demand Growth, 1Q20 Graphics DRAM Price Sees Sharp Upturn</a> (TrendForce 2019-12-26)</h4><p>……<br><strong>Graphics DRAM prices will see a corresponding sharp rebound</strong>. Graphics DRAM is more sensitive to demand change than other types of memory products, so its price fluctuations can be dramatic as well. With OEM clients raising their stock-up demand, <strong>Graphics DRAM contract prices are projected to increase by over 5%</strong> <strong>QoQ**</strong>, the highest among all memory products.<strong><br>…………<br>The memory capacity of these upcoming consoles could be raised up to 16GB, which is twice that of current mainstream graphics cards. Given these developments</strong>, demand is expected to exceed supply for graphics DRAM in 2020.<strong><br>…………<br>Currently, </strong>Graphics DRAM accounts for less than 6% of the industry’s overall output.<strong> Owing to a constrained supply and the abovementioned demand drivers, quotes are starting to stabilize. Because suppliers will not be able to make quick enough adjustments in their product mixes to immediately meet the rising demand</strong>, TrendForce forecasts a sharp rebound in the contract prices of Graphics DRAM in 2020**, which will register perhaps the largest increase among products for different memory applications.<br>…………</p><h4 id="集邦咨询：供给调整速度不及需求成长，2020年第一季显卡内存价格快速翻涨-TrendForce-2019-12-26"><a href="#集邦咨询：供给调整速度不及需求成长，2020年第一季显卡内存价格快速翻涨-TrendForce-2019-12-26" class="headerlink" title="集邦咨询：供给调整速度不及需求成长，2020年第一季显卡内存价格快速翻涨(TrendForce 2019-12-26)"></a><a href="https://press.trendforce.cn/press/20191226-3030.html" target="_blank" rel="noopener">集邦咨询：供给调整速度不及需求成长，2020年第一季显卡内存价格快速翻涨</a>(TrendForce 2019-12-26)</h4><p>根据集邦咨询半导体研究中心(DRAMeXchange)最新调查，<strong>2020年第一季</strong>除了因1X纳米良率问题导致供货不及，使得服务器内存价格领涨以外，<strong>显卡内存价格也快速反转向上</strong>。由于显卡内存相较于其他产品类别，属于价格波动明显的浅碟市场，因此在买方积极拉货下，<strong>预期价格将较前一季上涨逾5%，涨幅为所有产品中最高</strong>。<br>……<br>供给方面，相较其他产品别，显卡内存的单颗芯片生产成本最高，因此在历经过去几季DRAM价格快速下滑之后，显卡内存出现亏损较其他产品来的快。因此，三大DRAM原厂纷纷将产能转向其他获利能力较好的类别。截至目前，<strong>显卡内存占DRAM总产出的比重低于6%，在供给有限又面临需求增温的情况下，报价止跌回稳。由于原厂的产能调整无法快速反应，集邦咨询预期价格将会在2020年强劲反弹，而且可能成为涨幅最大的DRAM产品类别。</strong><br>三大原厂在显卡内存领域的竞争态势，<strong>三星处于领先地位，不仅市占最高，在GDDR6的设计与产品验证的进度也最快。SK海力士与美光半导体的市占大约在伯仲之间</strong>，但在<strong>最新一代GDDR6产品的开发上，美光即将进入量产阶段，快过SK海力士</strong>，<strong>因此在2020年有望拉开与**</strong>SK<strong>**海力士的差距。</strong><br>集邦咨询预估，<strong>在2020下半年游戏机新机种将搭载高容量GDDR6以及价格反弹的刺激下，原厂会逐渐将产能转回生产显卡内存，使得明年位元产出年成长量有机会突破15%，增幅位居第二，仅次于服务器内存。</strong></p><h4 id="3-中日半导体产业合作大有可为-中国电子报-2019-12-06"><a href="#3-中日半导体产业合作大有可为-中国电子报-2019-12-06" class="headerlink" title="3. 中日半导体产业合作大有可为 (中国电子报 2019-12-06)"></a>3. <a href="http://m.cena.com.cn/semi/20191206/103698.html" target="_blank" rel="noopener">中日半导体产业合作大有可为 </a>(<strong>中国电子报 2019-12-06</strong>)</h4><p>日前，有关松下电器退出半导体行业的消息引发业界广泛关注。<strong>中国正大力发展半导体产业，与日本有着很强的互补性</strong>。因此，客观认识日本半导体发展实际，探索加强中日合作，将会实现双赢。<br>………<br>虽然<strong>日本</strong>在芯片设计领域特别是存储器方面出现大幅衰退，但<strong>在材料设备及部分细分市场依然具有优势</strong>。精细化工是日本发展半导体级材料的基础，至今依然保持优势。目前，<strong>日本企业在全球半导体材料市场的整体市场份额达到52%，在硅片、光刻胶、掩膜版、导电黏胶、塑封料、引线框架等关键材料领域具有明显优势</strong>，拥有信越、三菱住友、JSR、日立化成、京瓷等全球半导体材料顶级供应商。<br>…………<br><strong>中国市场对于日本半导体产品有着大量的需求。中国是全球最大、成长最快的集成电路市场</strong>。根据HIS的数据，<strong>预计到2020年，中国会用掉47%左右的半导体产品</strong>。而中国国内的半导体产业又相对弱小，<strong>对日本的材料设备以及芯片产品都有着很大的需求。</strong><br>此外，<strong>中日半导体人才交流合作空间巨大</strong>。由于前期发展不足，目前中国半导体人才缺口很大。而日本半导体发展时间较长，产业成熟，人才基数大。加强中日半导体人才合作交流对双方来说非常有益。日前，<strong>紫光集团邀请前尔必达社长坂本幸雄出任集团高级副总裁兼日本分公司执行长。</strong>坂本幸雄计划，将在日本神奈川县设立“设计中心”，预定招募70~100位工程师。这一做法，对于中日半导体人才合作是一个新的探索。<strong>希望中日半导体产业界加强合作互动，从市场、人才着手，逐渐向技术、产业等更高层次深入，未来将大有可为。</strong></p><h1 id="Vendor-News"><a href="#Vendor-News" class="headerlink" title="Vendor News"></a>Vendor News</h1><h4 id="1-ChangXin-Emerging-as-China’s-First-amp-Only-DRAM-Maker-EE-Times-2019-12-03"><a href="#1-ChangXin-Emerging-as-China’s-First-amp-Only-DRAM-Maker-EE-Times-2019-12-03" class="headerlink" title="1. ChangXin Emerging as China’s First &amp; Only DRAM Maker(EE Times  2019-12-03)"></a>1. <a href="https://www.eetimes.com/changxin-emerging-as-chinas-first-only-dram-maker/#" target="_blank" rel="noopener">ChangXin Emerging as China’s First &amp; Only DRAM Maker</a>(EE Times  2019-12-03)</h4><p>In an exclusive interview with EE Times , representatives of ChangXin Memory (formerly known as Innotron Memory) said <strong>the company has completed its Fab 1 and R&amp;D facility in Hefei,</strong> the capital of Anhui province, and is <strong>currently running 20,000 wafers per month. It is scheduled to double its capacity to 40,000 wafers per month in the second quarter of 2020. Using a 19-nm process technology, ChangXin has begun producing this fall LPDDR4, DDR4 8Gbit DRAM products. </strong><br>…………<br>ChangXin acknowledged that <strong> it’s been recruiting engineers from Korea and Taiwan to build its fundamental DRAM knowledge.</strong> It has also hired <strong>technical staff formerly at Qimonda</strong>. These recruits include Karl Heinz Kuesters, who signed on as a “consultant.”<br>…………<br><img src="半导体行业新闻简报-Semiconductor-Industry-News-Briefing-17-201912/3-1.jpg" alt=""></p><h4 id="2-兆易创新：首款DRAM芯片最晚2025年量产-cnBeta-2019-12-30"><a href="#2-兆易创新：首款DRAM芯片最晚2025年量产-cnBeta-2019-12-30" class="headerlink" title="2. 兆易创新：首款DRAM芯片最晚2025年量产(cnBeta 2019-12-30)"></a>2. <a href="https://www.cnbeta.com/articles/tech/926911.htm" target="_blank" rel="noopener">兆易创新：首款DRAM芯片最晚2025年量产</a>(cnBeta 2019-12-30)</h4><p>此前，<strong>兆易创新发布非公开发行A</strong>股股票预案，<strong>公司拟向不超过10名特定投资者非公开发行股票不超过64,224,315股（含本数），募集资金总额（含发行费用）不超过人民币432,402.36万元，用于DRAM芯片研发及产业化以及补充流动资金。</strong>近日，兆易创新在此次非公开发行A股股票申请文件的反馈意见的回复中，透露了具体规划。<br><img src="半导体行业新闻简报-Semiconductor-Industry-News-Briefing-17-201912/3-2.png" alt=""><br>表中可知，<strong>兆易创新DRAM芯片2021年完成客户验证，最晚将于2025年量产。</strong><br>兆易创新披露，公司Flash芯片的下游客户与DRAM芯片的下游客户重合度较高。<br>对首款芯片试样片进行封装测试，后送至系统芯片商处进行功能性认证，认证完毕后送至客户进行系统级验证，包含功能测试、压力测试、烧机验证等，通过所有验证后完成客户验证，<strong>验证完成后进行小批量产，实施时间预计在2021年</strong>。<br>另外，兆易创新表示，公司拟通过本项目，研发1Xnm级（19nm、17nm）工艺制程下的DRAM技术，设计和开发<strong>DDR3、LPDDR3、DDR4、LPDDR4系列DRAM芯片</strong>。本项目的成功实施，有助于公司丰富自身产品线，有效整合产业资源，巩固并提高公司的市场地位和综合竞争力。</p><h4 id="3-Micron-Obtains-License-to-Sell-DRAM-amp-NAND-to-Huawei-ANADNTECH-2019-12-19"><a href="#3-Micron-Obtains-License-to-Sell-DRAM-amp-NAND-to-Huawei-ANADNTECH-2019-12-19" class="headerlink" title="3. Micron Obtains License to Sell DRAM &amp; NAND to Huawei (ANADNTECH  2019-12-19)"></a>3. <a href="https://www.anandtech.com/show/15250/micron-obtains-license-to-sell-dram-nand-to-huawei" target="_blank" rel="noopener">Micron Obtains License to Sell DRAM &amp; NAND to Huawei </a>(ANADNTECH  2019-12-19)</h4><p>…………<br>We saw Huawei’s notebooks recently come back to the Microsoft store, and yesterday during an call<strong>, Micron announced it is one of the first U.S. companies to recently obtain the required licenses, and they can resume selling various types of products to Huawei.</strong><br>Because of the Export Administration Regulations and Entity List restrictions imposed on Huawei, <strong>companies that develop and make products in the U.S. could no longer sell them to Huawei</strong>. As a consequence, companies like Intel, Google, Microsoft, Micron, and many others had to stop working with their Chinese partner, which had a drastic impact on their business as the Chinese telecom giant is clearly a major customer buying a large number of hardware and software products.<br><img src="半导体行业新闻简报-Semiconductor-Industry-News-Briefing-17-201912/3-3.png" alt=""><br><strong>Micron was allowed to sell and support some of its products to Huawei, but it was forbidden to supply Huawei with new products or sign new sales agreements. In the recent weeks the company obtained a license from the U.S. administration to qualify and sell new products (e.g., DRAM modules/chips, SSDs, 3D NAND memory, etc.) with Huawei’s mobile and server business units.</strong> Meanwhile, since new sales agreements take months to complete, Micron does not expect the licenses to have an impact on its sales in upcoming quarters.</p><h1 id="New-Technology"><a href="#New-Technology" class="headerlink" title="New Technology"></a>New Technology</h1><h4 id="1-铠侠看淡3D-XPoint前景-闪存仍将长期主导-cnBeta-2019-12-31"><a href="#1-铠侠看淡3D-XPoint前景-闪存仍将长期主导-cnBeta-2019-12-31" class="headerlink" title="1. 铠侠看淡3D XPoint前景 闪存仍将长期主导 (cnBeta 2019-12-31)"></a>1. <a href="https://www.cnbeta.com/articles/tech/927309.htm" target="_blank" rel="noopener">铠侠看淡3D XPoint前景 闪存仍将长期主导 </a>(cnBeta 2019-12-31)</h4><p>未来十年，存储市场仍将继续追求存储的密度、速度和需求的平衡点。尽管各个厂家的技术侧重点不尽相同，<strong>但铠侠（原东芝存储器）对3D XPoint之类的堆叠类存储方案的前景并不看好。</strong>在今年的国际电子设备会议（IEDM）上，该公司宣布了 BiCS 闪存系列和即将推出的 XL-Flash 技术，并且附上了一份展现未来愿景的幻灯片。<br>动态随机存储器（DRAM）、闪存（Flash）和“存储级内存”（SCM），是当前市面上的三大发展方向，铠侠也对英特尔和美光的 3D XPoint 长期愿景进行了展望。<br><img src="半导体行业新闻简报-Semiconductor-Industry-News-Briefing-17-201912/4-1.jpg" alt=""><br>…………<br>3D 堆叠式存储单元的工作方式与闪存有所不同，以 <strong>3D XPoint 为例，其使用相变材料来改变存储单元的电阻，并可以通过电子选择器开关进行访问。</strong><br>通过交替改变字线和位线的方向来构建存储器，以保留 SCM 的比特位可寻址特性。如需堆叠更多的层数，也只需添加额外的字线和位线，以及其间的单元。<br>即便如此，<strong>铠侠仍不看好3D XPoint的前景。首先是相对于层数的每比特位成本，层数的增加会带来更高的复杂性，控制电路会损失一部分面积，产能损失的影响也更大。</strong><br><img src="半导体行业新闻简报-Semiconductor-Industry-News-Briefing-17-201912/4-2.png" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Breaking-News&quot;&gt;&lt;a href=&quot;#Breaking-News&quot; class=&quot;headerlink&quot; title=&quot;Breaking News&quot;&gt;&lt;/a&gt;Breaking News&lt;/h1&gt;&lt;h4 id=&quot;1-Samsung-Electronics
-      
-    
-    </summary>
-    
-      <category term="半导体行业信息" scheme="https://tfpiaoyang.github.io/categories/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E4%BF%A1%E6%81%AF/"/>
-    
-    
-      <category term="半导体" scheme="https://tfpiaoyang.github.io/tags/%E5%8D%8A%E5%AF%BC%E4%BD%93/"/>
-    
-      <category term="Semiconductor" scheme="https://tfpiaoyang.github.io/tags/Semiconductor/"/>
-    
-      <category term="DRAM" scheme="https://tfpiaoyang.github.io/tags/DRAM/"/>
-    
-      <category term="Intel" scheme="https://tfpiaoyang.github.io/tags/Intel/"/>
-    
-      <category term="AMD" scheme="https://tfpiaoyang.github.io/tags/AMD/"/>
-    
-      <category term="内存" scheme="https://tfpiaoyang.github.io/tags/%E5%86%85%E5%AD%98/"/>
-    
-      <category term="Micron" scheme="https://tfpiaoyang.github.io/tags/Micron/"/>
-    
-      <category term="SK Hynix" scheme="https://tfpiaoyang.github.io/tags/SK-Hynix/"/>
-    
       <category term="Samsung" scheme="https://tfpiaoyang.github.io/tags/Samsung/"/>
-    
-      <category term="长鑫存储" scheme="https://tfpiaoyang.github.io/tags/%E9%95%BF%E9%91%AB%E5%AD%98%E5%82%A8/"/>
-    
-      <category term="CXMT" scheme="https://tfpiaoyang.github.io/tags/CXMT/"/>
     
       <category term="紫光" scheme="https://tfpiaoyang.github.io/tags/%E7%B4%AB%E5%85%89/"/>
     
