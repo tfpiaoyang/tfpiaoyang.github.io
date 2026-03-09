@@ -20,25 +20,21 @@
     var CONFIG = {"hostname":"imatt.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="今年年初，联想爆出个新闻，联想AI战略2018落地首例：携手北大建设的全国首个温水水冷超算平台“未名一号”正式启用！.仔细看下，此将项目中使用的基础计算节点很可能是基于NeXtScale系统的SD650新一代的高密度液冷节点。简单从硬件设计和规格上对这款产品的特点进行下分析： NeXtScale系统 6U高度12个节点 做HPC的方案，一般会采用刀片或者高密度的产品做计算节点。NeXtScale定">
+  <meta name="description" content="Lenovo液冷产品SD650简析 - 今年年初，联想爆出个新闻， 联想AI战略 落地首例：携手北大建设的全国首个温水水冷超算平台“未名一号”正式启用！ https:&#x2F;&#x2F;m.lenovo.com.cn&#x2F;news&#x2F; .h">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Lenovo液冷产品SD650简析">
 <meta property="og:url" content="https://imatt.cn/2018/04/15/Lenovo%E6%B6%B2%E5%86%B7%E4%BA%A7%E5%93%81SD650%E7%AE%80%E6%9E%90/index.html">
 <meta property="og:site_name" content="行业信息情报站">
-<meta property="og:description" content="今年年初，联想爆出个新闻，联想AI战略2018落地首例：携手北大建设的全国首个温水水冷超算平台“未名一号”正式启用！.仔细看下，此将项目中使用的基础计算节点很可能是基于NeXtScale系统的SD650新一代的高密度液冷节点。简单从硬件设计和规格上对这款产品的特点进行下分析： NeXtScale系统 6U高度12个节点 做HPC的方案，一般会采用刀片或者高密度的产品做计算节点。NeXtScale定">
+<meta property="og:description" content="Lenovo液冷产品SD650简析 - 今年年初，联想爆出个新闻， 联想AI战略 落地首例：携手北大建设的全国首个温水水冷超算平台“未名一号”正式启用！ https:&#x2F;&#x2F;m.lenovo.com.cn&#x2F;news&#x2F; .h">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://imatt.cn/Lenovo%E6%B6%B2%E5%86%B7%E4%BA%A7%E5%93%81SD650%E7%AE%80%E6%9E%90/SD650-internal-view-li.gif">
 <meta property="og:image" content="https://imatt.cn/Lenovo%E6%B6%B2%E5%86%B7%E4%BA%A7%E5%93%81SD650%E7%AE%80%E6%9E%90/SD650-internal-view.png">
 <meta property="og:image" content="https://imatt.cn/Lenovo%E6%B6%B2%E5%86%B7%E4%BA%A7%E5%93%81SD650%E7%AE%80%E6%9E%90/SD650-block-diagram.png">
 <meta property="og:image" content="https://imatt.cn/Lenovo%E6%B6%B2%E5%86%B7%E4%BA%A7%E5%93%81SD650%E7%AE%80%E6%9E%90/SD650-front-view.png">
 <meta property="article:published_time" content="2018-04-15T12:34:03.000Z">
-<meta property="article:modified_time" content="2018-04-16T14:43:58.000Z">
+<meta property="article:modified_time" content="2026-03-09T00:51:31.844Z">
 <meta property="article:author" content="tfpiaoyang">
-<meta property="article:tag" content="Lenovo">
-<meta property="article:tag" content="Sever">
-<meta property="article:tag" content="服务器">
-<meta property="article:tag" content="液冷">
-<meta property="article:tag" content="联想">
+<meta property="article:tag" content="半导体，AI,Semiconductor，人工智能，科技，新能源，锂电池，固态电池，大模型，AI 芯片，产业动态">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://imatt.cn/Lenovo%E6%B6%B2%E5%86%B7%E4%BA%A7%E5%93%81SD650%E7%AE%80%E6%9E%90/SD650-internal-view-li.gif">
 
@@ -198,19 +194,11 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-04-16 22:43:58" itemprop="dateModified" datetime="2018-04-16T22:43:58+08:00">2018-04-16</time>
+                <time title="修改时间：2026-03-09 08:51:31" itemprop="dateModified" datetime="2026-03-09T08:51:31+08:00">2026-03-09</time>
               </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BA%A7%E5%93%81/" itemprop="url" rel="index"><span itemprop="name">服务器产品</span></a>
-                </span>
-            </span>
 
           
+            <div class="post-description">Lenovo液冷产品SD650简析 - 今年年初，联想爆出个新闻， 联想AI战略 落地首例：携手北大建设的全国首个温水水冷超算平台“未名一号”正式启用！ https://m.lenovo.com.cn/news/ .h</div>
 
         </div>
       </header>
@@ -262,13 +250,6 @@
     
 
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="tag"># 服务器</a>
-              <a href="/tags/%E8%81%94%E6%83%B3/" rel="tag"># 联想</a>
-              <a href="/tags/%E6%B6%B2%E5%86%B7/" rel="tag"># 液冷</a>
-              <a href="/tags/Sever/" rel="tag"># Sever</a>
-              <a href="/tags/Lenovo/" rel="tag"># Lenovo</a>
-          </div>
 
         
 
@@ -366,7 +347,7 @@
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">33</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
