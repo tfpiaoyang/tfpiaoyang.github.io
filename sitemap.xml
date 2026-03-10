@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://imatt.cn/2026/03/10/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-03-10/</loc>
+    
+    <lastmod>2026-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://imatt.cn/2026/03/10/%E7%94%B5%E6%B1%A0%E6%96%B0%E8%83%BD%E6%BA%90%E7%AE%80%E6%8A%A5-2026-03-10/</loc>
     
     <lastmod>2026-03-10</lastmod>
@@ -608,6 +617,20 @@
   
   <url>
     <loc>https://imatt.cn/tags/%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E5%8D%8A%E5%AF%BC%E4%BD%93%EF%BC%8CAI-%E8%8A%AF%E7%89%87%EF%BC%8C%E6%B6%A8%E4%BB%B7%EF%BC%8C%E5%85%88%E8%BF%9B%E5%B0%81%E8%A3%85%EF%BC%8CHBM/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/TrendForce/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
