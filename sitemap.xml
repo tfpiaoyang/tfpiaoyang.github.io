@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://imatt.cn/2026/03/10/%E7%94%B5%E6%B1%A0%E6%96%B0%E8%83%BD%E6%BA%90%E7%AE%80%E6%8A%A5%20-2026-03-10/</loc>
+    
+    <lastmod>2026-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/2026/03/10/AI%20%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-03-10/</loc>
+    
+    <lastmod>2026-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://imatt.cn/2026/03/10/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-03-10/</loc>
     
     <lastmod>2026-03-10</lastmod>
@@ -631,6 +649,20 @@
   
   <url>
     <loc>https://imatt.cn/tags/TrendForce/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E7%94%B5%E6%B1%A0%EF%BC%8C%E6%96%B0%E8%83%BD%E6%BA%90%EF%BC%8C%E9%94%82%E7%94%B5%E6%B1%A0%EF%BC%8C%E5%9B%BA%E6%80%81%E7%94%B5%E6%B1%A0%EF%BC%8C%E9%92%A0%E7%94%B5%E6%B1%A0%EF%BC%8C%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%8C%E5%A4%A7%E6%A8%A1%E5%9E%8B%EF%BC%8C%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%EF%BC%8CAI-Agent/</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
