@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 8.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"imatt.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+  </script>
+
+  <meta name="description" content="MiniMax M2.7 自进化；MiniMax M2.5 正式发布；Cursor Composer 2 发布">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 行业简报 - 2026-03-24">
+<meta property="og:url" content="https://imatt.cn/2026/03/24/AI%20%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-03-24/index.html">
+<meta property="og:site_name" content="行业信息情报站">
+<meta property="og:description" content="MiniMax M2.7 自进化；MiniMax M2.5 正式发布；Cursor Composer 2 发布">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-03-23T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-03-24T01:25:23.718Z">
+<meta property="article:author" content="tfpiaoyang">
+<meta property="article:tag" content="Claude">
+<meta property="article:tag" content="GPT-5.4">
+<meta property="article:tag" content="MiniMax">
+<meta property="article:tag" content="人工智能">
+<meta property="article:tag" content="大模型">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://imatt.cn/2026/03/24/AI%20%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-03-24/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>AI 行业简报 - 2026-03-24 | 行业信息情报站</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">行业信息情报站</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">半导体、AI、新能源行业情报分析</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/tfpiaoyang" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://imatt.cn/2026/03/24/AI%20%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-03-24/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="tfpiaoyang">
+      <meta itemprop="description" content="专注半导体行业、人工智能、电池新能源领域的产业动态、市场预测和技术趋势分析，提供每日行业简报和深度洞察">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="行业信息情报站">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          AI 行业简报 - 2026-03-24
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2026-03-24 00:00:00 / 修改时间：09:25:23" itemprop="dateCreated datePublished" datetime="2026-03-24T00:00:00+08:00">2026-03-24</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AI/" itemprop="url" rel="index"><span itemprop="name">AI</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+            <div class="post-description">MiniMax M2.7 自进化；MiniMax M2.5 正式发布；Cursor Composer 2 发布</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="🚀-模型发布"><a href="#🚀-模型发布" class="headerlink" title="🚀 模型发布"></a>🚀 模型发布</h2><h3 id="MiniMax-M2-7-Early-Echoes-of-Self-Evolution"><a href="#MiniMax-M2-7-Early-Echoes-of-Self-Evolution" class="headerlink" title="MiniMax M2.7: Early Echoes of Self-Evolution"></a>MiniMax M2.7: Early Echoes of Self-Evolution</h3><p>MiniMax M2.7 展现自进化早期迹象。经过三次试验，每次 24 小时迭代进化，M2.7 训练的 ML 模型随时间推移持续获得更高奖牌率。最终最佳运行获得 9 金 5 银 1 铜，平均奖牌率 66.6%，仅次于 Opus-4.6 (75.7%) 和 GPT-5.4 (71.2%)，与 Gemini-3.1 (66.6%) 持平。</p>
+<p>[来源：MiniMax] <a target="_blank" rel="noopener" href="https://www.minimax.io/news/minimax-m27-en">查看详情</a> | 2026-03-23</p>
+<hr>
+<h3 id="MiniMax-M2-5-Built-for-Real-World-Productivity-⭐"><a href="#MiniMax-M2-5-Built-for-Real-World-Productivity-⭐" class="headerlink" title="MiniMax M2.5: Built for Real-World Productivity ⭐"></a>MiniMax M2.5: Built for Real-World Productivity ⭐</h3><p>MiniMax M2.5 正式发布，专为现实世界生产力打造。在数十万复杂现实环境中通过强化学习广泛训练，M2.5 在编码、智能体工具使用和搜索、办公工作等经济价值任务上达到 SOTA 水平。SWE-Bench Verified 得分 80.2%，Multi-SWE-Bench 得分 51.3%，BrowseComp 得分 76.3%（含上下文管理）。M2.5 执行复杂智能体任务速度极快，SWE-Bench Verified 评估比 M2.1 快 37%，速度匹配 Claude Opus 4.6。</p>
+<p>[来源：MiniMax] <a target="_blank" rel="noopener" href="https://www.minimax.io/news/minimax-m25">查看详情</a> | 2026-03-24</p>
+<hr>
+<h3 id="Cursor’s-Composer-2-Beats-Claude-Opus-4-6"><a href="#Cursor’s-Composer-2-Beats-Claude-Opus-4-6" class="headerlink" title="Cursor’s Composer 2 Beats Claude Opus 4.6"></a>Cursor’s Composer 2 Beats Claude Opus 4.6</h3><p>Cursor 的新一代编码模型 Composer 2 发布，击败 Claude Opus 4.6 但仍落后 GPT-5.4。在 Terminal-Bench 2.0（衡量 AI 智能体在命令行终端界面执行任务能力）上，GPT-5.4 仍以 75.1 分领先，Composer 2 得分 61.7，领先 Opus 4.6 的 58.0 分。</p>
+<p>[来源：VentureBeat] <a target="_blank" rel="noopener" href="https://venturebeat.com/technology/cursors-new-coding-model-composer-2-is-here-it-beats-claude-opus-4-6-but">查看详情</a> | 2026-03-24</p>
+<hr>
+<h3 id="Composer-2-Next-Gen-AI-Coding-Model"><a href="#Composer-2-Next-Gen-AI-Coding-Model" class="headerlink" title="Composer 2: Next-Gen AI Coding Model"></a>Composer 2: Next-Gen AI Coding Model</h3><p>Composer 2 是 Cursor 开发的下一代 AI 编码模型，专为软件工程任务设计。以前沿水平编码性能提供，成本比 Claude Opus 4.6 等竞争对手低达 10 倍。</p>
+<p>[来源：CometAPI] <a target="_blank" rel="noopener" href="https://www.cometapi.com/what-is-composer-2/">查看详情</a> | 2026-03-24</p>
+<hr>
+<h2 id="📊-模型对比"><a href="#📊-模型对比" class="headerlink" title="📊 模型对比"></a>📊 模型对比</h2><h3 id="I-Spent-9-800-Testing-GPT-5-4-vs-Claude-Opus-4-6-in-Production"><a href="#I-Spent-9-800-Testing-GPT-5-4-vs-Claude-Opus-4-6-in-Production" class="headerlink" title="I Spent $9,800 Testing GPT-5.4 vs Claude Opus 4.6 in Production"></a>I Spent $9,800 Testing GPT-5.4 vs Claude Opus 4.6 in Production</h3><p>花费 9800 美元在生产环境测试 GPT-5.4 与 Claude Opus 4.6。OpenAI 新旗舰模型 3 月 5 日发布，声称具有最佳推理能力。</p>
+<p>[来源：Medium] <a target="_blank" rel="noopener" href="https://medium.com/@claudio.a.lupi/i-spent-9-800-testing-gpt-5-4-eb7399a1a171">查看详情</a> | 2026-03-23</p>
+<hr>
+<h3 id="MiniMax’s-M2-7-Competes-with-Gemini-and-Opus"><a href="#MiniMax’s-M2-7-Competes-with-Gemini-and-Opus" class="headerlink" title="MiniMax’s M2.7 Competes with Gemini and Opus"></a>MiniMax’s M2.7 Competes with Gemini and Opus</h3><p>MiniMax M2.7 与 Gemini 和 Opus 竞争。M2.7 通过 MiniMax API 成本为每百万输入 token 0.30 美元，每百万输出 token 1.20 美元，公司声称在同等智能水平下运行成本不到 GLM-5 的 1&#x2F;3。该模型集成超过 11 个开发者工具（包括 Claude Code、Cursor 和 Zed），SWE-Pro 软件工程基准得分 56.22%，幻觉率降至 34%（Claude Sonnet 4.6 为 46%）。</p>
+<p>[来源：DeepLearning.AI] <a target="_blank" rel="noopener" href="https://www.deeplearning.ai/the-batch/minimaxs-m2-7-model-competes-with-gemini-and-opus/">查看详情</a> | 2026-03-24</p>
+<hr>
+<h3 id="Mastering-MiniMax-M2-7-Model-Invocation"><a href="#Mastering-MiniMax-M2-7-Model-Invocation" class="headerlink" title="Mastering MiniMax-M2.7 Model Invocation"></a>Mastering MiniMax-M2.7 Model Invocation</h3><p>掌握 MiniMax-M2.7 模型调用：10B 参数实现旗舰性能，成本仅为 Opus 的 1&#x2F;50。2026 年 3 月 18 日，MiniMax 推出 MiniMax-M2.7 旗舰大语言模型，这是首个积极参与自身进化过程的 AI 模型。仅 10B 活跃参数即实现与 Claude 同等的 Tier-1 性能。</p>
+<p>[来源：Apiyi] <a target="_blank" rel="noopener" href="https://help.apiyi.com/en/minimax-m27-highspeed-self-evolving-api-guide-en.html">查看详情</a> | 2026-03-24</p>
+<hr>
+<h3 id="Fix-Claude-AI-Not-Working-2026"><a href="#Fix-Claude-AI-Not-Working-2026" class="headerlink" title="Fix Claude AI Not Working (2026)"></a>Fix Claude AI Not Working (2026)</h3><p>修复 Claude AI 无法工作（2026）。需要大量硬件——理想情况下是像 Mac Studio 这样具有大共享显存的机器——来运行与云端托管质量匹配的模型。MiniMax 等开源模型使本地托管更加可行。Kimi K2.5 输入 token 成本比 Claude Opus 4.6 低 10-12 倍，输出 token 便宜 10-14 倍。</p>
+<p>[来源：DaveSwift] <a target="_blank" rel="noopener" href="https://daveswift.com/claude-trouble/">查看详情</a> | 2026-03-23</p>
+<hr>
+<h2 id="📰-行业动态"><a href="#📰-行业动态" class="headerlink" title="📰 行业动态"></a>📰 行业动态</h2><h3 id="LLM-News-Today-March-2026"><a href="#LLM-News-Today-March-2026" class="headerlink" title="LLM News Today (March 2026)"></a>LLM News Today (March 2026)</h3><p>LLM 今日新闻（2026 年 3 月）。LLM Stats 提供全面的 LLM 新闻，涵盖所有主要提供商。LLM 更新包括 GPT、Claude、Gemini、Llama 和其他模型系列。聚合来自 TechCrunch、The Verge、VentureBeat 和官方 AI 实验室公告的新闻。</p>
+<p>[来源：LLM Stats] <a target="_blank" rel="noopener" href="https://llm-stats.com/ai-news">查看详情</a> | 2026-03-24</p>
+<hr>
+<h3 id="OpenAI-Collaborating-with-Broadcom-on-Custom-AI-Chip"><a href="#OpenAI-Collaborating-with-Broadcom-on-Custom-AI-Chip" class="headerlink" title="OpenAI Collaborating with Broadcom on Custom AI Chip"></a>OpenAI Collaborating with Broadcom on Custom AI Chip</h3><p>OpenAI 与 Broadcom 合作定制 AI 芯片。2024 年，OpenAI 开始与 Broadcom 合作设计能够同时进行训练和推理的定制 AI 芯片，目标 2026 年大规模生产，由台积电采用 3nm 工艺节点制造。</p>
+<p>[来源：Wikipedia] <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/OpenAI">查看详情</a> | 2026-03-23</p>
+<hr>
+<p><em>数据来源：MiniMax, VentureBeat, CometAPI, Medium, DeepLearning.AI, Apiyi, DaveSwift, LLM Stats, Wikipedia 等权威媒体</em><br><em>生成时间：2026-03-24 09:30</em></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" rel="tag"># 人工智能</a>
+              <a href="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" rel="tag"># 大模型</a>
+              <a href="/tags/MiniMax/" rel="tag"># MiniMax</a>
+              <a href="/tags/GPT-5-4/" rel="tag"># GPT-5.4</a>
+              <a href="/tags/Claude/" rel="tag"># Claude</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2026/03/24/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-03-24/" rel="prev" title="半导体行业简报 - 2026-03-24">
+      <i class="fa fa-chevron-left"></i> 半导体行业简报 - 2026-03-24
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%9A%80-%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83"><span class="nav-number">1.</span> <span class="nav-text">🚀 模型发布</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#MiniMax-M2-7-Early-Echoes-of-Self-Evolution"><span class="nav-number">1.1.</span> <span class="nav-text">MiniMax M2.7: Early Echoes of Self-Evolution</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MiniMax-M2-5-Built-for-Real-World-Productivity-%E2%AD%90"><span class="nav-number">1.2.</span> <span class="nav-text">MiniMax M2.5: Built for Real-World Productivity ⭐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Cursor%E2%80%99s-Composer-2-Beats-Claude-Opus-4-6"><span class="nav-number">1.3.</span> <span class="nav-text">Cursor’s Composer 2 Beats Claude Opus 4.6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Composer-2-Next-Gen-AI-Coding-Model"><span class="nav-number">1.4.</span> <span class="nav-text">Composer 2: Next-Gen AI Coding Model</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%93%8A-%E6%A8%A1%E5%9E%8B%E5%AF%B9%E6%AF%94"><span class="nav-number">2.</span> <span class="nav-text">📊 模型对比</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#I-Spent-9-800-Testing-GPT-5-4-vs-Claude-Opus-4-6-in-Production"><span class="nav-number">2.1.</span> <span class="nav-text">I Spent $9,800 Testing GPT-5.4 vs Claude Opus 4.6 in Production</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MiniMax%E2%80%99s-M2-7-Competes-with-Gemini-and-Opus"><span class="nav-number">2.2.</span> <span class="nav-text">MiniMax’s M2.7 Competes with Gemini and Opus</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mastering-MiniMax-M2-7-Model-Invocation"><span class="nav-number">2.3.</span> <span class="nav-text">Mastering MiniMax-M2.7 Model Invocation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Fix-Claude-AI-Not-Working-2026"><span class="nav-number">2.4.</span> <span class="nav-text">Fix Claude AI Not Working (2026)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%93%B0-%E8%A1%8C%E4%B8%9A%E5%8A%A8%E6%80%81"><span class="nav-number">3.</span> <span class="nav-text">📰 行业动态</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#LLM-News-Today-March-2026"><span class="nav-number">3.1.</span> <span class="nav-text">LLM News Today (March 2026)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#OpenAI-Collaborating-with-Broadcom-on-Custom-AI-Chip"><span class="nav-number">3.2.</span> <span class="nav-text">OpenAI Collaborating with Broadcom on Custom AI Chip</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">tfpiaoyang</p>
+  <div class="site-description" itemprop="description">专注半导体行业、人工智能、电池新能源领域的产业动态、市场预测和技术趋势分析，提供每日行业简报和深度洞察</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">88</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">70</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">tfpiaoyang</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
