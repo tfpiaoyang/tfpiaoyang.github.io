@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://imatt.cn/2026/04/07/%E7%94%B5%E6%B1%A0%E6%96%B0%E8%83%BD%E6%BA%90%E7%AE%80%E6%8A%A5%20-2026-04-07/</loc>
+    <loc>https://imatt.cn/2026/04/07/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-04-07/</loc>
     
     <lastmod>2026-04-07</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/2026/04/07/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5%20-2026-04-07/</loc>
+    <loc>https://imatt.cn/2026/04/07/%E7%94%B5%E6%B1%A0%E6%96%B0%E8%83%BD%E6%BA%90%E7%AE%80%E6%8A%A5%20-2026-04-07/</loc>
     
     <lastmod>2026-04-07</lastmod>
     
@@ -1864,7 +1864,14 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/categories/%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5/</loc>
+    <loc>https://imatt.cn/categories/BAT/</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/categories/SC/</loc>
     <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
