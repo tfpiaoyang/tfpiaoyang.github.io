@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 8.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"imatt.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+  </script>
+
+  <meta name="description" content="Anthropic 本周发布了全新 AI 模型 Claude Mythos Preview，该模型能够自主发现并利用软件及主流应用中的安全漏洞，引发美国金融监管机构高度重视。据 CNBC 报道，美联储…；AI 云基础设施公司 CoreWeave 于 4 月 10 日宣布与 Anthropic 签署多年合作协议，将为 Anthropic 提供云计算资源以支撑其 Claude 系列模型的训练与部署。此">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI行业简报-2026-04-11">
+<meta property="og:url" content="https://imatt.cn/2026/04/11/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-04-11/index.html">
+<meta property="og:site_name" content="行业信息情报站">
+<meta property="og:description" content="Anthropic 本周发布了全新 AI 模型 Claude Mythos Preview，该模型能够自主发现并利用软件及主流应用中的安全漏洞，引发美国金融监管机构高度重视。据 CNBC 报道，美联储…；AI 云基础设施公司 CoreWeave 于 4 月 10 日宣布与 Anthropic 签署多年合作协议，将为 Anthropic 提供云计算资源以支撑其 Claude 系列模型的训练与部署。此">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-04-11T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-04-12T01:32:37.125Z">
+<meta property="article:author" content="tfpiaoyang">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="人工智能">
+<meta property="article:tag" content="大模型">
+<meta property="article:tag" content="行业简报">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://imatt.cn/2026/04/11/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-04-11/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>AI行业简报-2026-04-11 | 行业信息情报站</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">行业信息情报站</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">半导体、AI、新能源行业情报分析</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/tfpiaoyang" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://imatt.cn/2026/04/11/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-04-11/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="tfpiaoyang">
+      <meta itemprop="description" content="专注半导体行业、人工智能、电池新能源领域的产业动态、市场预测和技术趋势分析，提供每日行业简报和深度洞察">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="行业信息情报站">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          AI行业简报-2026-04-11
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2026-04-11 08:00:00" itemprop="dateCreated datePublished" datetime="2026-04-11T08:00:00+08:00">2026-04-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2026-04-12 09:32:37" itemprop="dateModified" datetime="2026-04-12T09:32:37+08:00">2026-04-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AI/" itemprop="url" rel="index"><span itemprop="name">AI</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+            <div class="post-description">Anthropic 本周发布了全新 AI 模型 Claude Mythos Preview，该模型能够自主发现并利用软件及主流应用中的安全漏洞，引发美国金融监管机构高度重视。据 CNBC 报道，美联储…；AI 云基础设施公司 CoreWeave 于 4 月 10 日宣布与 Anthropic 签署多年合作协议，将为 Anthropic 提供云计算资源以支撑其 Claude 系列模型的训练与部署。此消息…；德国《 Handelsblatt 》报率先披露，欧盟委员会正在分析评估是否将 OpenAI 的 ChatGPT 平台认定为"超大型在线搜索引擎"，纳入《数字 Services Act》（DSA）框架进…</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="🚀-AI行业动态"><a href="#🚀-AI行业动态" class="headerlink" title="🚀 AI行业动态"></a>🚀 AI行业动态</h2><h3 id="Anthropic-发布-Claude-Mythos-Preview：能自主发现零日漏洞的-AI-模型引发监管关注"><a href="#Anthropic-发布-Claude-Mythos-Preview：能自主发现零日漏洞的-AI-模型引发监管关注" class="headerlink" title="Anthropic 发布 Claude Mythos Preview：能自主发现零日漏洞的 AI 模型引发监管关注"></a>Anthropic 发布 Claude Mythos Preview：能自主发现零日漏洞的 AI 模型引发监管关注</h3><p>Anthropic 本周发布了全新 AI 模型 Claude Mythos Preview，该模型能够自主发现并利用软件及主流应用中的安全漏洞，引发美国金融监管机构高度重视。据 CNBC 报道，美联储主席鲍威尔和美国财政部长贝森特已就此召集摩根大通等大型银行 CEO 商讨应对方案。Anthropic 表示，Mythos 模型已帮助发现数千个重大安全漏洞，目前仅向 JPMorgan 等有限合作伙伴开放。白宫和华尔街对这一模型的潜在网络安全风险保持高度警惕，同时 OpenAI 也被曝正在开发同类竞品以应对竞争。该模型代表了 AI 网络安全能力的重大阈值。</p>
+<p>[来源：CNBC] <a target="_blank" rel="noopener" href="https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html">查看详情</a> | 2026-04-10</p>
+<h3 id="CoreWeave-与-Anthropic-达成多年云服务协议，股价大涨-13"><a href="#CoreWeave-与-Anthropic-达成多年云服务协议，股价大涨-13" class="headerlink" title="CoreWeave 与 Anthropic 达成多年云服务协议，股价大涨 13%"></a>CoreWeave 与 Anthropic 达成多年云服务协议，股价大涨 13%</h3><p>AI 云基础设施公司 CoreWeave 于 4 月 10 日宣布与 Anthropic 签署多年合作协议，将为 Anthropic 提供云计算资源以支撑其 Claude 系列模型的训练与部署。此消息推动 CoreWeave（NASDAQ：CRWV）股价当日飙升逾 13%，公司未披露合作具体金额但此前透露其订单储备已超过 668 亿美元。Anthropic 年化收入本周突破 300 亿美元，较 2025 年底的约 90 亿美元大幅增长，对算力资源的需求持续攀升。这是 CoreWeave 两天内达成的第二笔重大协议。</p>
+<p>[来源：Reuters] <a target="_blank" rel="noopener" href="https://www.reuters.com/legal/transactional/coreweave-strikes-ai-cloud-deal-with-anthropic-shares-rise-2026-04-10/">查看详情</a> | 2026-04-10</p>
+<h3 id="欧盟依据《数字服务法》对-OpenAI-启动监管审查"><a href="#欧盟依据《数字服务法》对-OpenAI-启动监管审查" class="headerlink" title="欧盟依据《数字服务法》对 OpenAI 启动监管审查"></a>欧盟依据《数字服务法》对 OpenAI 启动监管审查</h3><p>德国《 Handelsblatt 》报率先披露，欧盟委员会正在分析评估是否将 OpenAI 的 ChatGPT 平台认定为”超大型在线搜索引擎”，纳入《数字 Services Act》（DSA）框架进行更严格监管。此前 OpenAI 公布了 ChatGPT 在欧盟的月活跃用户数，已超过欧盟规定的触发阈值。OpenAI 回应称其系按照现有义务披露欧盟用户数据。监管收紧将意味着 ChatGPT 面临更高的合规要求和信息披露义务，这是欧盟对 AI 应用强化监管立场的重要信号。</p>
+<p>[来源：Reuters] <a target="_blank" rel="noopener" href="https://www.reuters.com/world/openai-faces-tighter-regulation-under-eus-digital-service-act-handelsblatt-says-2026-04-10/">查看详情</a> | 2026-04-10</p>
+<h3 id="Anthropic-考虑自研-AI-芯片：收入突破-300-亿美元后的战略布局"><a href="#Anthropic-考虑自研-AI-芯片：收入突破-300-亿美元后的战略布局" class="headerlink" title="Anthropic 考虑自研 AI 芯片：收入突破 300 亿美元后的战略布局"></a>Anthropic 考虑自研 AI 芯片：收入突破 300 亿美元后的战略布局</h3><p>据 Reuters 独家报道，Anthropic 正就自主设计 AI 芯片进行早期内部讨论，以降低对英伟达 GPU 的依赖。当前 Anthropic 依赖英伟达 GPU 以及来自 Google（TPUs）和 Amazon 的定制加速器。Anthropic 年化收入已突破 300 亿美元，较 2025 年底的约 90 亿美元增长超 3 倍，算力需求激增推动芯片自主化议题。与此同时，OpenAI、Meta、Google 和 Amazon 均已在自研芯片领域积极布局，全球 AI 芯片竞争进一步加剧。</p>
+<p>[来源：Reuters] <a target="_blank" rel="noopener" href="https://www.reuters.com/business/anthropic-weighs-building-it-own-ai-chips-sources-say-2026-04-09/">查看详情</a> | 2026-04-09</p>
+<h3 id="DeepSeek-首次公开数据中心选址：在内蒙古招聘工程师"><a href="#DeepSeek-首次公开数据中心选址：在内蒙古招聘工程师" class="headerlink" title="DeepSeek 首次公开数据中心选址：在内蒙古招聘工程师"></a>DeepSeek 首次公开数据中心选址：在内蒙古招聘工程师</h3><p>据 Bloomberg 报道，DeepSeek 正在内蒙古地区招聘数据中心工程师，这是该公司首次公开披露具体数据中心建设地点。招聘信息标志着 DeepSeek 在 AI 基础设施扩张上的重要一步。此前有消息称，DeepSeek 最新一代 V4 模型有望运行在华为最新国产芯片上，若属实将是中国在绕过美国芯片出口管制方面的重大里程碑。阿里、字节跳动、腾讯等中国科技巨头均为华为芯片的大买家，为 DeepSeek V4 的发布做准备。</p>
+<p>[来源：Bloomberg] <a target="_blank" rel="noopener" href="https://www.bloomberg.com/news/articles/2026-04-10/deepseek-looks-for-data-center-engineers-in-inner-mongolia">查看详情</a> | 2026-04-10</p>
+<h3 id="大科技公司加码下一代核电投资，为-AI-数据中心提供清洁电力"><a href="#大科技公司加码下一代核电投资，为-AI-数据中心提供清洁电力" class="headerlink" title="大科技公司加码下一代核电投资，为 AI 数据中心提供清洁电力"></a>大科技公司加码下一代核电投资，为 AI 数据中心提供清洁电力</h3><p>据 Reuters 报道，Google、Microsoft、Amazon 等大科技公司正加大对新一代核能技术的资金投入，签署协议为耗电量巨大的 AI 数据中心锁定电力供应。随着 AI 模型训练和推理对电力需求急剧攀升，科技巨头纷纷将目光投向清洁、稳定的核能。国际能源署（IEA）预计，全球数据中心用电量到 2030 年将达 945 太瓦时，2035 年将进一步攀升至 1200 太瓦时，AI 驱动的电力需求增长已成为行业核心议题。</p>
+<p>[来源：Reuters] <a target="_blank" rel="noopener" href="https://www.reuters.com/legal/litigation/big-tech-puts-financial-heft-behind-next-gen-nuclear-power-ai-demand-surges-2026-04-10/">查看详情</a> | 2026-04-10</p>
+<h3 id="Intuit-利用-AI-将税务代码实施周期从数月压缩至数小时"><a href="#Intuit-利用-AI-将税务代码实施周期从数月压缩至数小时" class="headerlink" title="Intuit 利用 AI 将税务代码实施周期从数月压缩至数小时"></a>Intuit 利用 AI 将税务代码实施周期从数月压缩至数小时</h3><p>据 VentureBeat 报道，Intuit 宣布其团队借助商业 AI 工具组合——包括自研领域特定语言和定制单元测试框架——成功将税务法规代码实施周期从数月压缩至数小时。该工作流不只是一则税务案例，更为受监管行业的开发团队提供了可复用的模板，在保证合规的前提下显著提升开发效率。该实践展示了企业在核心业务中深度应用 AI 工具的现实路径。</p>
+<p>[来源：VentureBeat] <a target="_blank" rel="noopener" href="https://venturebeat.com/data/intuit-compressed-months-of-tax-code-implementation-into-hours-and-built-a">查看详情</a> | 2026-04-11</p>
+<h3 id="Google-DeepMind-发布-Gemma-4：面向高级推理和-AI-Agent-工作流的开源模型族"><a href="#Google-DeepMind-发布-Gemma-4：面向高级推理和-AI-Agent-工作流的开源模型族" class="headerlink" title="Google DeepMind 发布 Gemma 4：面向高级推理和 AI Agent 工作流的开源模型族"></a>Google DeepMind 发布 Gemma 4：面向高级推理和 AI Agent 工作流的开源模型族</h3><p>Google DeepMind 于本周正式发布 Gemma 4 模型族，这是一套专为高级推理和 AI Agent 工作流设计的新一代开源模型系列。Gemma 4 延续了 Google 开源模型轻量化、高性能的传统，可本地部署，适用于需要强推理能力的各类 Agent 场景。随着 AI Agent 在企业级应用的快速普及，高效、可控的开源模型正成为 Agent 架构的重要基础设施。</p>
+<p>[来源：Google DeepMind] <a target="_blank" rel="noopener" href="https://deepmind.google/models/gemma/gemma-4/">查看详情</a> | 2026-04-10</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" rel="tag"># 人工智能</a>
+              <a href="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" rel="tag"># 大模型</a>
+              <a href="/tags/AI/" rel="tag"># AI</a>
+              <a href="/tags/%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5/" rel="tag"># 行业简报</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2026/04/11/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-04-11/" rel="prev" title="半导体行业简报-2026-04-11">
+      <i class="fa fa-chevron-left"></i> 半导体行业简报-2026-04-11
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2026/04/11/%E7%94%B5%E6%B1%A0%E6%96%B0%E8%83%BD%E6%BA%90%E7%AE%80%E6%8A%A5-2026-04-11/" rel="next" title="电池新能源简报-2026-04-11">
+      电池新能源简报-2026-04-11 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%9A%80-AI%E8%A1%8C%E4%B8%9A%E5%8A%A8%E6%80%81"><span class="nav-number">1.</span> <span class="nav-text">🚀 AI行业动态</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Anthropic-%E5%8F%91%E5%B8%83-Claude-Mythos-Preview%EF%BC%9A%E8%83%BD%E8%87%AA%E4%B8%BB%E5%8F%91%E7%8E%B0%E9%9B%B6%E6%97%A5%E6%BC%8F%E6%B4%9E%E7%9A%84-AI-%E6%A8%A1%E5%9E%8B%E5%BC%95%E5%8F%91%E7%9B%91%E7%AE%A1%E5%85%B3%E6%B3%A8"><span class="nav-number">1.1.</span> <span class="nav-text">Anthropic 发布 Claude Mythos Preview：能自主发现零日漏洞的 AI 模型引发监管关注</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CoreWeave-%E4%B8%8E-Anthropic-%E8%BE%BE%E6%88%90%E5%A4%9A%E5%B9%B4%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE%EF%BC%8C%E8%82%A1%E4%BB%B7%E5%A4%A7%E6%B6%A8-13"><span class="nav-number">1.2.</span> <span class="nav-text">CoreWeave 与 Anthropic 达成多年云服务协议，股价大涨 13%</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AC%A7%E7%9B%9F%E4%BE%9D%E6%8D%AE%E3%80%8A%E6%95%B0%E5%AD%97%E6%9C%8D%E5%8A%A1%E6%B3%95%E3%80%8B%E5%AF%B9-OpenAI-%E5%90%AF%E5%8A%A8%E7%9B%91%E7%AE%A1%E5%AE%A1%E6%9F%A5"><span class="nav-number">1.3.</span> <span class="nav-text">欧盟依据《数字服务法》对 OpenAI 启动监管审查</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Anthropic-%E8%80%83%E8%99%91%E8%87%AA%E7%A0%94-AI-%E8%8A%AF%E7%89%87%EF%BC%9A%E6%94%B6%E5%85%A5%E7%AA%81%E7%A0%B4-300-%E4%BA%BF%E7%BE%8E%E5%85%83%E5%90%8E%E7%9A%84%E6%88%98%E7%95%A5%E5%B8%83%E5%B1%80"><span class="nav-number">1.4.</span> <span class="nav-text">Anthropic 考虑自研 AI 芯片：收入突破 300 亿美元后的战略布局</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#DeepSeek-%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E9%80%89%E5%9D%80%EF%BC%9A%E5%9C%A8%E5%86%85%E8%92%99%E5%8F%A4%E6%8B%9B%E8%81%98%E5%B7%A5%E7%A8%8B%E5%B8%88"><span class="nav-number">1.5.</span> <span class="nav-text">DeepSeek 首次公开数据中心选址：在内蒙古招聘工程师</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E7%A7%91%E6%8A%80%E5%85%AC%E5%8F%B8%E5%8A%A0%E7%A0%81%E4%B8%8B%E4%B8%80%E4%BB%A3%E6%A0%B8%E7%94%B5%E6%8A%95%E8%B5%84%EF%BC%8C%E4%B8%BA-AI-%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E6%8F%90%E4%BE%9B%E6%B8%85%E6%B4%81%E7%94%B5%E5%8A%9B"><span class="nav-number">1.6.</span> <span class="nav-text">大科技公司加码下一代核电投资，为 AI 数据中心提供清洁电力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Intuit-%E5%88%A9%E7%94%A8-AI-%E5%B0%86%E7%A8%8E%E5%8A%A1%E4%BB%A3%E7%A0%81%E5%AE%9E%E6%96%BD%E5%91%A8%E6%9C%9F%E4%BB%8E%E6%95%B0%E6%9C%88%E5%8E%8B%E7%BC%A9%E8%87%B3%E6%95%B0%E5%B0%8F%E6%97%B6"><span class="nav-number">1.7.</span> <span class="nav-text">Intuit 利用 AI 将税务代码实施周期从数月压缩至数小时</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Google-DeepMind-%E5%8F%91%E5%B8%83-Gemma-4%EF%BC%9A%E9%9D%A2%E5%90%91%E9%AB%98%E7%BA%A7%E6%8E%A8%E7%90%86%E5%92%8C-AI-Agent-%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%9A%84%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E6%97%8F"><span class="nav-number">1.8.</span> <span class="nav-text">Google DeepMind 发布 Gemma 4：面向高级推理和 AI Agent 工作流的开源模型族</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">tfpiaoyang</p>
+  <div class="site-description" itemprop="description">专注半导体行业、人工智能、电池新能源领域的产业动态、市场预测和技术趋势分析，提供每日行业简报和深度洞察</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">145</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">90</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">tfpiaoyang</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
