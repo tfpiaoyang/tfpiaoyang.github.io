@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 8.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"imatt.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+  </script>
+
+  <meta name="description" content="OpenAI 发布网络安全专用模型与美国防部竞跑；Anthropic Mythos 模型获多国监管机构肯定；Google DeepMind 发布 Gemini Robotics ER-1.6 机器人推理模型；Google DeepMind 研究员披露 AI Agent 面临的六大安全陷阱；Google AI 水印系统被指可被破解。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI行业简报-2026-04-15">
+<meta property="og:url" content="https://imatt.cn/2026/04/15/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-04-15/index.html">
+<meta property="og:site_name" content="行业信息情报站">
+<meta property="og:description" content="OpenAI 发布网络安全专用模型与美国防部竞跑；Anthropic Mythos 模型获多国监管机构肯定；Google DeepMind 发布 Gemini Robotics ER-1.6 机器人推理模型；Google DeepMind 研究员披露 AI Agent 面临的六大安全陷阱；Google AI 水印系统被指可被破解。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-04-15T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-04-15T01:11:27.679Z">
+<meta property="article:author" content="tfpiaoyang">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="人工智能">
+<meta property="article:tag" content="大模型">
+<meta property="article:tag" content="行业简报">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://imatt.cn/2026/04/15/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-04-15/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>AI行业简报-2026-04-15 | 行业信息情报站</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">行业信息情报站</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">半导体、AI、新能源行业情报分析</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/tfpiaoyang" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://imatt.cn/2026/04/15/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-04-15/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="tfpiaoyang">
+      <meta itemprop="description" content="专注半导体行业、人工智能、电池新能源领域的产业动态、市场预测和技术趋势分析，提供每日行业简报和深度洞察">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="行业信息情报站">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          AI行业简报-2026-04-15
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2026-04-15 08:00:00 / 修改时间：09:11:27" itemprop="dateCreated datePublished" datetime="2026-04-15T08:00:00+08:00">2026-04-15</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/AI/" itemprop="url" rel="index"><span itemprop="name">AI</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+            <div class="post-description">OpenAI 发布网络安全专用模型与美国防部竞跑；Anthropic Mythos 模型获多国监管机构肯定；Google DeepMind 发布 Gemini Robotics ER-1.6 机器人推理模型；Google DeepMind 研究员披露 AI Agent 面临的六大安全陷阱；Google AI 水印系统被指可被破解。</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="🚀-产业动态"><a href="#🚀-产业动态" class="headerlink" title="🚀 产业动态"></a>🚀 产业动态</h2><h3 id="OpenAI-发布网络安全专用模型，与-Anthropic-Mythos-正面竞速"><a href="#OpenAI-发布网络安全专用模型，与-Anthropic-Mythos-正面竞速" class="headerlink" title="OpenAI 发布网络安全专用模型，与 Anthropic Mythos 正面竞速"></a>OpenAI 发布网络安全专用模型，与 Anthropic Mythos 正面竞速</h3><p>OpenAI 向少数用户开放了一款专注于发现软件安全漏洞的新型 AI 模型，该模型旨在更精准地识别代码中的脆弱点。此前竞争对手 Anthropic 于一周前宣布限量发布 AI 安全工具 Mythos，两家公司在 AI 网络安全赛道上的竞争愈发激烈。OpenAI 此举被广泛视为对标 Anthropic Mythos 的战略回应，旨在争夺”AI 防御者”市场的先发优势。</p>
+<p>[来源：Bloomberg] <a target="_blank" rel="noopener" href="https://www.bloomberg.com/news/articles/2026-04-14/openai-releases-cyber-model-to-limited-group-in-race-with-mythos">查看详情</a> | 2026-04-14</p>
+<h3 id="Anthropic-Mythos-模型获加拿大-AI-部长公开点赞"><a href="#Anthropic-Mythos-模型获加拿大-AI-部长公开点赞" class="headerlink" title="Anthropic Mythos 模型获加拿大 AI 部长公开点赞"></a>Anthropic Mythos 模型获加拿大 AI 部长公开点赞</h3><p>加拿大负责人工智能的部长 Evan Solomon公开赞扬了 Anthropic 限制性发布 Mythos 模型的做法，称”先与防御者合作、而非广泛发布，是负责任的路径，也能让保护关键系统的人先行一步”。此前，Anthropic 选择了仅向部分企业开放测试的谨慎策略，Solomon 表示这一决策值得肯定，反映了 AI 安全领域的自律趋势。</p>
+<p>[来源：Bloomberg] <a target="_blank" rel="noopener" href="https://www.bloomberg.com/news/articles/2026-04-14/anthropic-wins-accolades-from-canada-s-ai-minister-over-mythos-approach">查看详情</a> | 2026-04-14</p>
+<h3 id="美国财政部寻求获取-Anthropic-Mythos-模型以挖掘漏洞"><a href="#美国财政部寻求获取-Anthropic-Mythos-模型以挖掘漏洞" class="headerlink" title="美国财政部寻求获取 Anthropic Mythos 模型以挖掘漏洞"></a>美国财政部寻求获取 Anthropic Mythos 模型以挖掘漏洞</h3><p>据知情人士透露，美国财政部的技术团队正在寻求获取 Anthropic Mythos AI 模型的访问权限，以便开始主动搜寻系统中潜在的安全漏洞。财政部作为全球最重要的金融机构之一，其对 Mythos 的兴趣表明，美国政府机构正在认真考虑利用前沿 AI 模型来强化自身网络安全防御体系。</p>
+<p>[来源：Bloomberg] <a target="_blank" rel="noopener" href="https://www.bloomberg.com/news/articles/2026-04-14/us-treasury-seeking-access-to-anthropic-s-mythos-to-find-flaws">查看详情</a> | 2026-04-14</p>
+<h3 id="欧洲央行行长拉加德肯定-Anthropic-限制-Mythos-发布的审慎做法"><a href="#欧洲央行行长拉加德肯定-Anthropic-限制-Mythos-发布的审慎做法" class="headerlink" title="欧洲央行行长拉加德肯定 Anthropic 限制 Mythos 发布的审慎做法"></a>欧洲央行行长拉加德肯定 Anthropic 限制 Mythos 发布的审慎做法</h3><p>欧洲央行行长克里斯蒂娜·拉加德（Christine Lagarde）公开赞扬了 Anthropic 对其最新 AI 模型 Mythos 实施限制性发布策略的决定，并呼吁对 AI 技术建立更广泛的防护机制。拉加德同时表达了对 AI 系统潜在风险的担忧，警告若不加以适当管控，AI 可能对金融系统和经济稳定带来冲击，这是迄今为止来自欧洲最高层级监管者对 AI 安全问题最明确的表态之一。</p>
+<p>[来源：Bloomberg] <a target="_blank" rel="noopener" href="https://www.bloomberg.com/news/articles/2026-04-14/lagarde-worried-about-ai-lauds-anthropic-s-approach-on-mythos">查看详情</a> | 2026-04-14</p>
+<h3 id="银行业警告：Anthropic-Mythos-驱动的-AI-网络攻击或造成灾难性后果"><a href="#银行业警告：Anthropic-Mythos-驱动的-AI-网络攻击或造成灾难性后果" class="headerlink" title="银行业警告：Anthropic Mythos 驱动的 AI 网络攻击或造成灾难性后果"></a>银行业警告：Anthropic Mythos 驱动的 AI 网络攻击或造成灾难性后果</h3><p>网络安全专家和法律分析师警告称，Anthropic 的 Mythos AI 模型——多家公司及网络安全专家已发出警告，认为该模型可能极大提升复杂网络攻击的能力——对拥有遗留技术系统的银行业构成了重大挑战。银行等金融机构仍在使用大量老旧系统，在应对由 AI 驱动的新型攻击手段时显得尤为脆弱，行业担忧 Mythos 一旦被恶意利用，将引发前所未有的安全危机。</p>
+<p>[来源：Reuters] <a target="_blank" rel="noopener" href="https://www.reuters.com/legal/litigation/ai-boosted-hacks-with-anthropics-mythos-could-have-dire-consequences-banks-2026-04-13/">查看详情</a> | 2026-04-14</p>
+<h3 id="Google-DeepMind-发布-Gemini-Robotics-ER-1-6：赋予机器人更强物理推理能力"><a href="#Google-DeepMind-发布-Gemini-Robotics-ER-1-6：赋予机器人更强物理推理能力" class="headerlink" title="Google DeepMind 发布 Gemini Robotics ER-1.6：赋予机器人更强物理推理能力"></a>Google DeepMind 发布 Gemini Robotics ER-1.6：赋予机器人更强物理推理能力</h3><p>Google DeepMind 正式发布 Gemini Robotics ER-1.6，这是其面向机器人领域的最新多模态大模型。该版本在 ER-1 基础上大幅提升了”具身推理”（Embodied Reasoning）能力，使机器人能够更准确理解物理环境、推理空间关系并完成复杂的长时序操作任务。DeepMind 同步发布了相关研究论文和技术博客，展示了 ER-1.6 在真实家居和工业场景中的实验结果，新模型被认为是将 AI 从虚拟世界推向真实物理世界的关键一步。</p>
+<p>[来源：Google DeepMind Blog] <a target="_blank" rel="noopener" href="https://blog.google/technology/deepmind/gemini-robotics-er-1-6/">查看详情</a> | 2026-04-14</p>
+<h3 id="Boston-Dynamics-与-Google-DeepMind-合作教-Spot-机器狗学会”推理”"><a href="#Boston-Dynamics-与-Google-DeepMind-合作教-Spot-机器狗学会”推理”" class="headerlink" title="Boston Dynamics 与 Google DeepMind 合作教 Spot 机器狗学会”推理”"></a>Boston Dynamics 与 Google DeepMind 合作教 Spot 机器狗学会”推理”</h3><p>Boston Dynamics 与 Google DeepMind 联合宣布，双方合作将 DeepMind 的 Gemini Robotics ER-1.6 模型集成至 Spot 四足机器人，赋予其实时环境推理和决策能力。此次合作将 DeepMind 的 AI 大脑与 Boston Dynamics 的顶级硬件平台相结合，Spot 未来有望在巡检、救援和复杂地形作业中实现真正的自主运行，标志着机器狗从”遥控工具”向”智能体”的重要跨越。</p>
+<p>[来源：IEEE Spectrum] <a target="_blank" rel="noopener" href="https://spectrum.ieee.org/boston-dynamics-google-deepmind-spot">查看详情</a> | 2026-04-14</p>
+<h3 id="Google-DeepMind-研究员披露：六大”陷阱”可轻易劫持-AI-Agent"><a href="#Google-DeepMind-研究员披露：六大”陷阱”可轻易劫持-AI-Agent" class="headerlink" title="Google DeepMind 研究员披露：六大”陷阱”可轻易劫持 AI Agent"></a>Google DeepMind 研究员披露：六大”陷阱”可轻易劫持 AI Agent</h3><p>Google DeepMind 安全研究团队发布重磅研究，披露了当前 AI Agent 在生产环境中面临的六种关键攻击向量（” traps”），这些攻击可在真实互联网环境下实现对 AI Agent 行为的劫持、误导甚至破坏。研究涵盖了提示注入（Prompt Injection）、工具调用误导、记忆污染等主流攻击手法，并提供了对应防御建议。该研究首次系统性地将 Web 攻击技术与 AI Agent 安全问题结合，被视为 2026 年 AI 安全领域最重要的开源研究之一。</p>
+<p>[来源：SecurityWeek] <a target="_blank" rel="noopener" href="https://securityweek.com/google-deepmind-researchers-map-web-attacks-against-ai-agents">查看详情</a> | 2026-04-14</p>
+<h3 id="Google-AI-水印系统被指可被逆向破解，AI-生成内容辨识面临新挑战"><a href="#Google-AI-水印系统被指可被逆向破解，AI-生成内容辨识面临新挑战" class="headerlink" title="Google AI 水印系统被指可被逆向破解，AI 生成内容辨识面临新挑战"></a>Google AI 水印系统被指可被逆向破解，AI 生成内容辨识面临新挑战</h3><p>The Verge 报道称，Google 此前为区分 AI 生成内容与人类创作内容而设计的 AI 水印（Watermarking）系统被发现存在安全漏洞，外部开发者已成功实现对该系统的逆向工程破解。这意味着攻击者可绕过水印检测，将 AI 生成内容伪装为人类作品。该发现对 Google 正在推动的 AI 内容溯源生态构成直接冲击，也再次引发关于 AI 生成内容监管边界的广泛讨论。</p>
+<p>[来源：The Verge] <a target="_blank" rel="noopener" href="https://www.theverge.com/google-ai-watermark-reverse-engineered">查看详情</a> | 2026-04-14</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/AI/" rel="tag"># AI</a>
+              <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" rel="tag"># 人工智能</a>
+              <a href="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/" rel="tag"># 大模型</a>
+              <a href="/tags/%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5/" rel="tag"># 行业简报</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2026/04/15/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-04-15/" rel="prev" title="半导体行业简报-2026-04-15">
+      <i class="fa fa-chevron-left"></i> 半导体行业简报-2026-04-15
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%9A%80-%E4%BA%A7%E4%B8%9A%E5%8A%A8%E6%80%81"><span class="nav-number">1.</span> <span class="nav-text">🚀 产业动态</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#OpenAI-%E5%8F%91%E5%B8%83%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E4%B8%93%E7%94%A8%E6%A8%A1%E5%9E%8B%EF%BC%8C%E4%B8%8E-Anthropic-Mythos-%E6%AD%A3%E9%9D%A2%E7%AB%9E%E9%80%9F"><span class="nav-number">1.1.</span> <span class="nav-text">OpenAI 发布网络安全专用模型，与 Anthropic Mythos 正面竞速</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Anthropic-Mythos-%E6%A8%A1%E5%9E%8B%E8%8E%B7%E5%8A%A0%E6%8B%BF%E5%A4%A7-AI-%E9%83%A8%E9%95%BF%E5%85%AC%E5%BC%80%E7%82%B9%E8%B5%9E"><span class="nav-number">1.2.</span> <span class="nav-text">Anthropic Mythos 模型获加拿大 AI 部长公开点赞</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BE%8E%E5%9B%BD%E8%B4%A2%E6%94%BF%E9%83%A8%E5%AF%BB%E6%B1%82%E8%8E%B7%E5%8F%96-Anthropic-Mythos-%E6%A8%A1%E5%9E%8B%E4%BB%A5%E6%8C%96%E6%8E%98%E6%BC%8F%E6%B4%9E"><span class="nav-number">1.3.</span> <span class="nav-text">美国财政部寻求获取 Anthropic Mythos 模型以挖掘漏洞</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AC%A7%E6%B4%B2%E5%A4%AE%E8%A1%8C%E8%A1%8C%E9%95%BF%E6%8B%89%E5%8A%A0%E5%BE%B7%E8%82%AF%E5%AE%9A-Anthropic-%E9%99%90%E5%88%B6-Mythos-%E5%8F%91%E5%B8%83%E7%9A%84%E5%AE%A1%E6%85%8E%E5%81%9A%E6%B3%95"><span class="nav-number">1.4.</span> <span class="nav-text">欧洲央行行长拉加德肯定 Anthropic 限制 Mythos 发布的审慎做法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%93%B6%E8%A1%8C%E4%B8%9A%E8%AD%A6%E5%91%8A%EF%BC%9AAnthropic-Mythos-%E9%A9%B1%E5%8A%A8%E7%9A%84-AI-%E7%BD%91%E7%BB%9C%E6%94%BB%E5%87%BB%E6%88%96%E9%80%A0%E6%88%90%E7%81%BE%E9%9A%BE%E6%80%A7%E5%90%8E%E6%9E%9C"><span class="nav-number">1.5.</span> <span class="nav-text">银行业警告：Anthropic Mythos 驱动的 AI 网络攻击或造成灾难性后果</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Google-DeepMind-%E5%8F%91%E5%B8%83-Gemini-Robotics-ER-1-6%EF%BC%9A%E8%B5%8B%E4%BA%88%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%9B%B4%E5%BC%BA%E7%89%A9%E7%90%86%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B"><span class="nav-number">1.6.</span> <span class="nav-text">Google DeepMind 发布 Gemini Robotics ER-1.6：赋予机器人更强物理推理能力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Boston-Dynamics-%E4%B8%8E-Google-DeepMind-%E5%90%88%E4%BD%9C%E6%95%99-Spot-%E6%9C%BA%E5%99%A8%E7%8B%97%E5%AD%A6%E4%BC%9A%E2%80%9D%E6%8E%A8%E7%90%86%E2%80%9D"><span class="nav-number">1.7.</span> <span class="nav-text">Boston Dynamics 与 Google DeepMind 合作教 Spot 机器狗学会”推理”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Google-DeepMind-%E7%A0%94%E7%A9%B6%E5%91%98%E6%8A%AB%E9%9C%B2%EF%BC%9A%E5%85%AD%E5%A4%A7%E2%80%9D%E9%99%B7%E9%98%B1%E2%80%9D%E5%8F%AF%E8%BD%BB%E6%98%93%E5%8A%AB%E6%8C%81-AI-Agent"><span class="nav-number">1.8.</span> <span class="nav-text">Google DeepMind 研究员披露：六大”陷阱”可轻易劫持 AI Agent</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Google-AI-%E6%B0%B4%E5%8D%B0%E7%B3%BB%E7%BB%9F%E8%A2%AB%E6%8C%87%E5%8F%AF%E8%A2%AB%E9%80%86%E5%90%91%E7%A0%B4%E8%A7%A3%EF%BC%8CAI-%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9%E8%BE%A8%E8%AF%86%E9%9D%A2%E4%B8%B4%E6%96%B0%E6%8C%91%E6%88%98"><span class="nav-number">1.9.</span> <span class="nav-text">Google AI 水印系统被指可被逆向破解，AI 生成内容辨识面临新挑战</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">tfpiaoyang</p>
+  <div class="site-description" itemprop="description">专注半导体行业、人工智能、电池新能源领域的产业动态、市场预测和技术趋势分析，提供每日行业简报和深度洞察</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">154</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">90</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">tfpiaoyang</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
