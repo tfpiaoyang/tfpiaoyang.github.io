@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/2026/05/01/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-05-01/</loc>
+    <loc>https://imatt.cn/2026/05/01/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-05-01/</loc>
     
     <lastmod>2026-05-01</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/2026/05/01/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-05-01/</loc>
+    <loc>https://imatt.cn/2026/05/01/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-05-01/</loc>
     
     <lastmod>2026-05-01</lastmod>
     
@@ -578,7 +578,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/2020/08/05/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E6%96%B0%E9%97%BB%E7%AE%80%E6%8A%A5-Semiconductor-Industry-News-Briefing-24-202007/</loc>
+    <loc>https://imatt.cn/2021/03/02/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E6%96%B0%E9%97%BB%E7%AE%80%E6%8A%A5-Semiconductor-Industry-News-Briefing-29-202102/</loc>
     
     <lastmod>2026-04-10</lastmod>
     
@@ -587,7 +587,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/2021/03/02/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E6%96%B0%E9%97%BB%E7%AE%80%E6%8A%A5-Semiconductor-Industry-News-Briefing-29-202102/</loc>
+    <loc>https://imatt.cn/2020/08/05/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E6%96%B0%E9%97%BB%E7%AE%80%E6%8A%A5-Semiconductor-Industry-News-Briefing-24-202007/</loc>
     
     <lastmod>2026-04-10</lastmod>
     
@@ -1778,14 +1778,21 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2/</loc>
+    <loc>https://imatt.cn/tags/MiniMax/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/AI-%E5%86%9B%E4%BA%8B/</loc>
+    <loc>https://imatt.cn/tags/GPT-5-4/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/Claude/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1799,7 +1806,14 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E5%B0%8F%E7%B1%B3/</loc>
+    <loc>https://imatt.cn/tags/DeepSeek/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/API-%E4%BB%B7%E6%A0%BC/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1827,13 +1841,6 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/DeepSeek/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://imatt.cn/tags/AI-%E4%BB%A3%E7%90%86/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -1848,42 +1855,21 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/MiniMax/</loc>
+    <loc>https://imatt.cn/tags/%E5%B0%8F%E7%B1%B3/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/GPT-5-4/</loc>
+    <loc>https://imatt.cn/tags/%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/Claude/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/API-%E4%BB%B7%E6%A0%BC/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/%E7%9B%91%E7%AE%A1%E6%94%BF%E7%AD%96/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/AI-%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://imatt.cn/tags/AI-%E5%86%9B%E4%BA%8B/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1911,21 +1897,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E5%BE%AE%E8%BD%AF/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/AI-%E6%99%BA%E8%83%BD%E4%BD%93/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5/</loc>
+    <loc>https://imatt.cn/tags/%E7%9B%91%E7%AE%A1%E6%94%BF%E7%AD%96/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1946,14 +1918,28 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83/</loc>
+    <loc>https://imatt.cn/tags/%E5%BE%AE%E8%BD%AF/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/AI-Agent/</loc>
+    <loc>https://imatt.cn/tags/AI-%E6%99%BA%E8%83%BD%E4%BD%93/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/AI-%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2009,6 +1995,13 @@
   </url>
   
   <url>
+    <loc>https://imatt.cn/tags/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://imatt.cn/tags/AI-%E8%8A%AF%E7%89%87/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -2037,7 +2030,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/TSMC/</loc>
+    <loc>https://imatt.cn/tags/%E5%8F%B0%E7%A7%AF%E7%94%B5/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2051,35 +2044,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E6%97%A5%E6%9C%AC%E5%8D%8A%E5%AF%BC%E4%BD%93/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/%E5%8F%B0%E7%A7%AF%E7%94%B5/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://imatt.cn/tags/TrendForce/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/HBM/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/%E4%B8%89%E6%98%9F/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2093,7 +2058,14 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E4%BB%A3%E5%B7%A5/</loc>
+    <loc>https://imatt.cn/tags/NAND/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/HBM/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2107,6 +2079,13 @@
   </url>
   
   <url>
+    <loc>https://imatt.cn/tags/%E4%B8%89%E6%98%9F/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://imatt.cn/tags/%E7%BE%8E%E5%85%89/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -2114,14 +2093,21 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/CXMT/</loc>
+    <loc>https://imatt.cn/tags/TSMC/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E9%93%A0%E4%BE%A0/</loc>
+    <loc>https://imatt.cn/tags/%E6%97%A5%E6%9C%AC%E5%8D%8A%E5%AF%BC%E4%BD%93/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E4%BB%A3%E5%B7%A5/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2142,7 +2128,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E7%A1%85%E5%85%89%E5%AD%90/</loc>
+    <loc>https://imatt.cn/tags/%E9%93%A0%E4%BE%A0/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2156,14 +2142,7 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/NAND/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/CES-2026/</loc>
+    <loc>https://imatt.cn/tags/%E7%A1%85%E5%85%89%E5%AD%90/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2184,6 +2163,13 @@
   </url>
   
   <url>
+    <loc>https://imatt.cn/tags/CXMT/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://imatt.cn/tags/Nvidia/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -2198,6 +2184,13 @@
   </url>
   
   <url>
+    <loc>https://imatt.cn/tags/CES-2026/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://imatt.cn/tags/%E8%BD%AF%E9%93%B6/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -2205,21 +2198,35 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E5%B0%8F%E7%B1%B3%E8%8A%AF%E7%89%87/</loc>
+    <loc>https://imatt.cn/tags/%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/CATL/</loc>
+    <loc>https://imatt.cn/tags/%E6%AF%94%E4%BA%9A%E8%BF%AA/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E9%92%A0%E7%A6%BB%E5%AD%90%E7%94%B5%E6%B1%A0/</loc>
+    <loc>https://imatt.cn/tags/%E9%92%A0%E7%A6%BB%E5%AD%90/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E9%97%AA%E5%85%85%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2240,63 +2247,14 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E6%AF%94%E4%BA%9A%E8%BF%AA/</loc>
+    <loc>https://imatt.cn/tags/CATL/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/EV/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/%E5%85%85%E7%94%B5%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/%E5%82%A8%E8%83%BD/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/BYD/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/Tesla/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/%E7%BB%AD%E8%88%AA/</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://imatt.cn/tags/%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6/</loc>
+    <loc>https://imatt.cn/tags/%E9%92%A0%E7%A6%BB%E5%AD%90%E7%94%B5%E6%B1%A0/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2317,14 +2275,42 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E9%92%A0%E7%A6%BB%E5%AD%90/</loc>
+    <loc>https://imatt.cn/tags/EV/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/tags/%E9%97%AA%E5%85%85%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://imatt.cn/tags/%E7%BB%AD%E8%88%AA/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E5%82%A8%E8%83%BD/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/%E5%85%85%E7%94%B5%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/Tesla/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://imatt.cn/tags/BYD/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2358,6 +2344,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://imatt.cn/tags/%E5%BF%AB%E5%85%85/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -2375,14 +2368,14 @@
   </url>
   
   <url>
-    <loc>https://imatt.cn/categories/%E7%94%B5%E6%B1%A0%E6%96%B0%E8%83%BD%E6%BA%90/</loc>
+    <loc>https://imatt.cn/categories/%E7%94%B5%E6%B1%A0%E4%B8%8E%E6%96%B0%E8%83%BD%E6%BA%90/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://imatt.cn/categories/%E7%94%B5%E6%B1%A0%E4%B8%8E%E6%96%B0%E8%83%BD%E6%BA%90/</loc>
+    <loc>https://imatt.cn/categories/%E7%94%B5%E6%B1%A0%E6%96%B0%E8%83%BD%E6%BA%90/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
