@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 8.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"imatt.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+  </script>
+
+  <meta name="description" content="Dirty Frag漏洞影响数百万Linux机器；AMD发布MI350P AI加速卡；Nvidia向Corning投资3亿美元建光纤工厂">
+<meta property="og:type" content="article">
+<meta property="og:title" content="半导体行业简报-2026-05-08">
+<meta property="og:url" content="https://imatt.cn/2026/05/08/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-05-08/index.html">
+<meta property="og:site_name" content="行业信息情报站">
+<meta property="og:description" content="Dirty Frag漏洞影响数百万Linux机器；AMD发布MI350P AI加速卡；Nvidia向Corning投资3亿美元建光纤工厂">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-05-07T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-05-08T02:37:23.127Z">
+<meta property="article:author" content="tfpiaoyang">
+<meta property="article:tag" content="AMD">
+<meta property="article:tag" content="HBM">
+<meta property="article:tag" content="Nvidia">
+<meta property="article:tag" content="半导体">
+<meta property="article:tag" content="台积电">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://imatt.cn/2026/05/08/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-05-08/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>半导体行业简报-2026-05-08 | 行业信息情报站</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">行业信息情报站</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">半导体、AI、新能源行业情报分析</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/tfpiaoyang" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://imatt.cn/2026/05/08/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-05-08/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="tfpiaoyang">
+      <meta itemprop="description" content="专注半导体行业、人工智能、电池新能源领域的产业动态、市场预测和技术趋势分析，提供每日行业简报和深度洞察">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="行业信息情报站">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          半导体行业简报-2026-05-08
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2026-05-08 00:00:00 / 修改时间：10:37:23" itemprop="dateCreated datePublished" datetime="2026-05-08T00:00:00+08:00">2026-05-08</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%A1%8C%E4%B8%9A%E4%BF%A1%E6%81%AF/" itemprop="url" rel="index"><span itemprop="name">半导体行业信息</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+            <div class="post-description">Dirty Frag漏洞影响数百万Linux机器；AMD发布MI350P AI加速卡；Nvidia向Corning投资3亿美元建光纤工厂</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="🚀-产业动态"><a href="#🚀-产业动态" class="headerlink" title="🚀 产业动态"></a>🚀 产业动态</h2><h3 id="Dirty-Frag漏洞：数百万Linux机器可提权至root，自2017年起无补丁"><a href="#Dirty-Frag漏洞：数百万Linux机器可提权至root，自2017年起无补丁" class="headerlink" title="Dirty Frag漏洞：数百万Linux机器可提权至root，自2017年起无补丁"></a>Dirty Frag漏洞：数百万Linux机器可提权至root，自2017年起无补丁</h3><p>安全研究员曝光了一个与2024年Dirty Cow类似的内核本地提权漏洞”Dirty Frag”。攻击者可在受影响机器上立即获取root权限，主流Linux发行版自2017年起均受影响。目前尚无官方补丁，厂商也未提前收到警告。该漏洞被称为”Copy Fail式”漏洞，暴露了开源安全生态的通知机制缺陷。</p>
+<p>[来源：Tom’s Hardware] <a target="_blank" rel="noopener" href="https://www.tomshardware.com/tech-industry/cyber-security/dirty-frag-exploit-gets-root-on-most-linux-machines-since-2017-no-patches-available-no-warning-given-copy-fail-like-vulnerability-had-its-embargo-broken">查看详情</a> | 2026-05-08</p>
+<hr>
+<h3 id="AMD发布MI350P-AI加速卡：144GB-HBM3E，算力比Nvidia-H200高40"><a href="#AMD发布MI350P-AI加速卡：144GB-HBM3E，算力比Nvidia-H200高40" class="headerlink" title="AMD发布MI350P AI加速卡：144GB HBM3E，算力比Nvidia H200高40%"></a>AMD发布MI350P AI加速卡：144GB HBM3E，算力比Nvidia H200高40%</h3><p>AMD在Computex前突然发布Instinct MI350P PCIe AI加速卡，搭载144GB HBM3E内存，FP16和FP8理论算力比Nvidia H200 NVL高约40%。该卡面向现有风冷服务器数据中心，提供便捷升级方案，是AMD挑战Nvidia在AI训练硬件市场霸主地位的重要一步。</p>
+<p>[来源：Tom’s Hardware] <a target="_blank" rel="noopener" href="https://www.tomshardware.com/pc-components/gpus/amd-announces-mi350p-pcie-ai-accelerator-card-with-144gb-of-hbm3e-roughly-40-percent-faster-in-fp16-and-fp8-theoretical-compute-compared-to-nvidias-h200-nvl-competitor">查看详情</a> | 2026-05-07</p>
+<hr>
+<h3 id="TSMC因AI芯片需求激增转向风电，台湾面临能源压力"><a href="#TSMC因AI芯片需求激增转向风电，台湾面临能源压力" class="headerlink" title="TSMC因AI芯片需求激增转向风电，台湾面临能源压力"></a>TSMC因AI芯片需求激增转向风电，台湾面临能源压力</h3><p>台积电大规模采购离岸风电，以应对AI芯片生产带来的电力需求激增。随着数据中心和先进制程芯片的用电量持续攀升，台湾地区电网面临前所未有的承载压力。能源供应成为继先进制程技术之后，支撑半导体产业发展的又一关键瓶颈。</p>
+<p>[来源：Ars Technica] <a target="_blank" rel="noopener" href="https://feeds.arstechnica.com/arstechnica/index">查看详情</a> | 2026-05-07</p>
+<hr>
+<h3 id="Nvidia向Corning投资3亿美元，在美建设三座光纤工厂"><a href="#Nvidia向Corning投资3亿美元，在美建设三座光纤工厂" class="headerlink" title="Nvidia向Corning投资3亿美元，在美建设三座光纤工厂"></a>Nvidia向Corning投资3亿美元，在美建设三座光纤工厂</h3><p>Nvidia宣布向Corning投资3亿美元，在美国建设三座新的光纤工厂，预计将使其光通信产品产能提升超过50%。AI数据中心的扩张带动高速光模块需求激增，光纤基础设施成为算力扩张的关键瓶颈之一。此举也将加强美国本土光通信供应链。</p>
+<p>[来源：Tom’s Hardware] <a target="_blank" rel="noopener" href="https://www.tomshardware.com/tech-industry/artificial-intelligence">查看详情</a> | 2026-05-07</p>
+<hr>
+<h3 id="丹麦暂停新数据中心并网申请，待处理容量达60GW"><a href="#丹麦暂停新数据中心并网申请，待处理容量达60GW" class="headerlink" title="丹麦暂停新数据中心并网申请，待处理容量达60GW"></a>丹麦暂停新数据中心并网申请，待处理容量达60GW</h3><p>丹麦能源管理局宣布暂停接受新的数据中心并网申请，目前待处理的总申请容量已高达60GW。欧洲数据中心扩张速度远超电网建设进度，多国已开始出台限制措施。60GW相当于数十座大型发电厂的装机容量，凸显了AI驱动数据中心热潮下的能源挑战。</p>
+<p>[来源：Tom’s Hardware] <a target="_blank" rel="noopener" href="https://www.tomshardware.com/tech-industry/artificial-intelligence">查看详情</a> | 2026-05-07</p>
+<hr>
+<h3 id="内存现货价创年内最大单周涨幅，DDR4-8Gb涨3-2"><a href="#内存现货价创年内最大单周涨幅，DDR4-8Gb涨3-2" class="headerlink" title="内存现货价创年内最大单周涨幅，DDR4 8Gb涨3.2%"></a>内存现货价创年内最大单周涨幅，DDR4 8Gb涨3.2%</h3><p>AI服务器内存需求持续旺盛，内存现货市场连续多周走扬。本周DDR4 8Gb现货价格上涨3.2%，为年内最大单周涨幅。HBM和高端服务器DRAM需求尤其强劲，TrendForce预计Q2 DRAM合约价将继续上涨，存储半导体景气度持续回升。</p>
+<p>[来源：Tom’s Hardware] <a target="_blank" rel="noopener" href="https://www.tomshardware.com/news">查看详情</a> | 2026-05-07</p>
+<hr>
+<p><em>数据来源：Tom’s Hardware、Ars Technica 等权威媒体</em><br><em>生成时间：2026-05-08 10:15</em></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Nvidia/" rel="tag"># Nvidia</a>
+              <a href="/tags/%E5%8D%8A%E5%AF%BC%E4%BD%93/" rel="tag"># 半导体</a>
+              <a href="/tags/%E5%8F%B0%E7%A7%AF%E7%94%B5/" rel="tag"># 台积电</a>
+              <a href="/tags/HBM/" rel="tag"># HBM</a>
+              <a href="/tags/AMD/" rel="tag"># AMD</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2026/05/08/%E7%94%B5%E6%B1%A0%E6%96%B0%E8%83%BD%E6%BA%90%E7%AE%80%E6%8A%A5-2026-05-08/" rel="prev" title="电池新能源简报-2026-05-08">
+      <i class="fa fa-chevron-left"></i> 电池新能源简报-2026-05-08
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2026/05/08/AI%E8%A1%8C%E4%B8%9A%E7%AE%80%E6%8A%A5-2026-05-08/" rel="next" title="AI行业简报-2026-05-08">
+      AI行业简报-2026-05-08 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%F0%9F%9A%80-%E4%BA%A7%E4%B8%9A%E5%8A%A8%E6%80%81"><span class="nav-number">1.</span> <span class="nav-text">🚀 产业动态</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Dirty-Frag%E6%BC%8F%E6%B4%9E%EF%BC%9A%E6%95%B0%E7%99%BE%E4%B8%87Linux%E6%9C%BA%E5%99%A8%E5%8F%AF%E6%8F%90%E6%9D%83%E8%87%B3root%EF%BC%8C%E8%87%AA2017%E5%B9%B4%E8%B5%B7%E6%97%A0%E8%A1%A5%E4%B8%81"><span class="nav-number">1.1.</span> <span class="nav-text">Dirty Frag漏洞：数百万Linux机器可提权至root，自2017年起无补丁</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#AMD%E5%8F%91%E5%B8%83MI350P-AI%E5%8A%A0%E9%80%9F%E5%8D%A1%EF%BC%9A144GB-HBM3E%EF%BC%8C%E7%AE%97%E5%8A%9B%E6%AF%94Nvidia-H200%E9%AB%9840"><span class="nav-number">1.2.</span> <span class="nav-text">AMD发布MI350P AI加速卡：144GB HBM3E，算力比Nvidia H200高40%</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TSMC%E5%9B%A0AI%E8%8A%AF%E7%89%87%E9%9C%80%E6%B1%82%E6%BF%80%E5%A2%9E%E8%BD%AC%E5%90%91%E9%A3%8E%E7%94%B5%EF%BC%8C%E5%8F%B0%E6%B9%BE%E9%9D%A2%E4%B8%B4%E8%83%BD%E6%BA%90%E5%8E%8B%E5%8A%9B"><span class="nav-number">1.3.</span> <span class="nav-text">TSMC因AI芯片需求激增转向风电，台湾面临能源压力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nvidia%E5%90%91Corning%E6%8A%95%E8%B5%843%E4%BA%BF%E7%BE%8E%E5%85%83%EF%BC%8C%E5%9C%A8%E7%BE%8E%E5%BB%BA%E8%AE%BE%E4%B8%89%E5%BA%A7%E5%85%89%E7%BA%A4%E5%B7%A5%E5%8E%82"><span class="nav-number">1.4.</span> <span class="nav-text">Nvidia向Corning投资3亿美元，在美建设三座光纤工厂</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%B9%E9%BA%A6%E6%9A%82%E5%81%9C%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E5%B9%B6%E7%BD%91%E7%94%B3%E8%AF%B7%EF%BC%8C%E5%BE%85%E5%A4%84%E7%90%86%E5%AE%B9%E9%87%8F%E8%BE%BE60GW"><span class="nav-number">1.5.</span> <span class="nav-text">丹麦暂停新数据中心并网申请，待处理容量达60GW</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%85%E5%AD%98%E7%8E%B0%E8%B4%A7%E4%BB%B7%E5%88%9B%E5%B9%B4%E5%86%85%E6%9C%80%E5%A4%A7%E5%8D%95%E5%91%A8%E6%B6%A8%E5%B9%85%EF%BC%8CDDR4-8Gb%E6%B6%A83-2"><span class="nav-number">1.6.</span> <span class="nav-text">内存现货价创年内最大单周涨幅，DDR4 8Gb涨3.2%</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">tfpiaoyang</p>
+  <div class="site-description" itemprop="description">专注半导体行业、人工智能、电池新能源领域的产业动态、市场预测和技术趋势分析，提供每日行业简报和深度洞察</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">222</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">120</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">tfpiaoyang</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
